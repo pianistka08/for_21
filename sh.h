@@ -7,11 +7,32 @@
 # define OR "||"
 # define PIPE "|"
 # define SC ";"
+# define REL
+# define REWL
+# define RER
+# define REWR
 
 typedef enum {
 	cmd,
 	ext,
 }				t_type_token;
+
+typedef enum {
+	sc,
+	pi,
+	and,
+	ro,
+}			t_type_cmd;
+
+typedef struct			s_cmd
+{
+	char				**arr;
+	int					fd1;
+	int					fd2;
+	int					type;
+	char				*target;
+	struct s_cmd		*next;
+};
 
 typedef struct 			s_flag
 {
