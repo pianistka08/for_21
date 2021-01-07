@@ -13,26 +13,34 @@
 # define REWR
 
 typedef enum {
-	cmd,
-	ext,
+	cmd = 1,
+	ext = 2,
 }				t_type_token;
 
 typedef enum {
-	sc,
-	pi,
-	and,
-	ro,
+	sc = 1,
+	pi = 2,
+	and = 3,
+	ro = 4,
+	bk = 5,
 }			t_type_cmd;
+
+typedef enum {
+	out_w = 1,
+	out_add = 2,
+}			t_type_redirect;
 
 typedef struct			s_cmd
 {
 	char				**arr;
 	int					fd1;
 	int					fd2;
+	int					r_type;
 	int					type;
 	char				*target;
 	struct s_cmd		*next;
-};
+	struct s_cmd		*prev;
+}						t_cmd;
 
 typedef struct 			s_flag
 {
@@ -51,9 +59,10 @@ typedef struct 			s_tree
 
 typedef struct			s_token
 {
-	char 				*data;
-	int 				priority;
-	int 				type;
+	char				*data;
+	int				priority;
+	int				type;
+	int					c_type;
 	struct s_token		*next;
 	struct s_token		*prev;
 }						t_token;
@@ -77,5 +86,11 @@ char 			*if_ampersand(char *line, int *i, char *res, int j);
 char 			*if_vertical_bar(char *line, int *i, char *res, int j);
 char 			*get_semantica_ret(char *line, int *i, char *res, int j);
 t_tree				*get_tree(t_token *token);
+t_cmd			*get_data_cmd(t_token *t, t_cmd *cmd);
+t_cmd			*new_cmd(t_cmd *prev);
+t_cmd			*init_cmd(void);
+t_cmd			*get_cmd(t_token *t);
+t_cmd			*get_data_with_redirect(char *s, t_cmd *cmd);
+
 
 #endif

@@ -46,8 +46,9 @@ int 			main(void)
 	int 		car;
 	t_flag		*flag;
 	int 		l;
-	t_tree		*tree;
+	//t_tree		*tree;
 	t_token 	*cur;
+	t_cmd		*cmd;
 
 	line = NULL;
 	car = 0;
@@ -70,7 +71,8 @@ int 			main(void)
 	}
 	if (is_tokens_true(cur))
 		ft_putendl("true");
-	tree = get_tree(cur);
+	//tree = get_tree(cur);
+	//cmd = get_cmd(cur);
 	ft_putendl(line);
 	return (0);
 }

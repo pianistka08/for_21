@@ -38,6 +38,20 @@ int 				get_priority(char *s)
 		return (1);
 }
 
+int					get_cmd_type(char *s)
+{
+	if (ft_strcmp(s, BK) == 0)
+		return (bk);
+	if (ft_strcmp(s, OR) == 0)
+		return (ro);
+	if (ft_strcmp(s, AND) == 0)
+		return (and);
+	if (ft_strcmp(s, PIPE) == 0)
+		return (pi);
+	if (ft_strcmp(s, SC) == 0)
+		return (sc);
+}
+
 int 				is_tokens_true(t_token *t)
 {
 	t_token 		*tmp;
@@ -52,6 +66,7 @@ int 				is_tokens_true(t_token *t)
 				ft_strcmp(t->data, SC) == 0)
 		{
 			t->type = cmd;
+			t->c_type = get_cmd_type(t->data);
 			t->priority = get_priority(t->data);
 		}
 		else
@@ -74,5 +89,6 @@ t_token 			*init_token(void)
 	new->priority = 0;
 	new->next = NULL;
 	new->prev = NULL;
+	new->c_type = 0;
 	return (new);
 }
