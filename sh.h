@@ -7,10 +7,10 @@
 # define OR "||"
 # define PIPE "|"
 # define SC ";"
-# define REL
-# define REWL
-# define RER
-# define REWR
+# define GREAT ">"
+# define GGREAT ">>"
+# define LESS "<"
+# define LLESS "<<"
 
 typedef enum {
 	cmd = 1,
@@ -91,6 +91,7 @@ t_cmd			*new_cmd(t_cmd *prev);
 t_cmd			*init_cmd(void);
 t_cmd			*get_cmd(t_token *t);
 t_cmd			*get_data_with_redirect(char *s, t_cmd *cmd);
+char			*get_redirect(char *line, int *i, char *res, int j);
 
 
 #endif

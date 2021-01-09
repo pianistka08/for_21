@@ -9,14 +9,16 @@ char 				*get_data(char *line, int *n, t_flag *flag)
 	j = 0;
 	while (line[*n] != '\0')
 	{
-		while (line[*n] != '|' && line[*n] != ';' && line[*n] != '&' && line[*n] != '\0')
+		while (line[*n] != '|' && line[*n] != ';' && line[*n] != '&' && line[*n] != '>' &&
+			   line[*n] != '<' && line[*n] != '\0')
 		{
 			update_flag(flag, line[*n]);
 			res[j] = line[*n];
 			*n += 1;
 			j += 1;
 		}
-		if (line[*n] == '|' || line[*n] == ';' || line[*n] == '&' || line[*n] == '\0')
+		if (line[*n] == '|' || line[*n] == ';' || line[*n] == '&' || line[*n] == '>' ||
+		line[*n] == '<' || line[*n] == '\0')
 		{
 			res[j] = line[*n];
 			if (semantica(flag, line, n, &j) == 0)

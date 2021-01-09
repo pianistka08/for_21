@@ -21,6 +21,12 @@ char 				*get_semantica_ret(char *line, int *i, char *res, int j)
 		ret = if_ampersand(line, i, res, j);
 		return (ret);
 	}
+	if (line[*i] == '>' || line[*i] == '<')
+	{
+		ret = get_redirect(line, i, res, j);
+		return (ret);
+	}
+
 }
 
 int 				semantica(t_flag *flag, char *line, int *i, int *j)
@@ -33,10 +39,9 @@ int 				semantica(t_flag *flag, char *line, int *i, int *j)
 		*j += 1;
 		return (0);
 	}
-	if (line[*i] == '&')
+	if (line[*i] == '&' && line[*i] != line[*i + 1])
 	{
-		if ((line[*i - 1] && (line[*i - 1] == '<' || line[*i - 1] == '>')) ||
-				(line[*i + 1] && (line[*i + 1] == '<' || line[*i + 1] == '>')))
+		if ((line[*i - 1] && (line[*i - 1] == '<' || line[*i - 1] == '>')))
 		{
 			*i += 1;
 			*j += 1;
