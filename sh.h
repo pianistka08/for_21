@@ -40,12 +40,12 @@ typedef enum {
 
 typedef struct			s_cmd
 {
-	char				**arr;
-	int					fd1;
+	char				**arr; //аргументы
+	int					fd1; // для перенаправлений с конкретного на конкретный дескриптор
 	int					fd2;
-	int					r_type;
-	int					type;
-	char				*target;
+	int					r_type; // тип редиректа для редиректа
+	int					type; //
+	char				*target; // имя файла в случае редиректа
 	struct s_cmd		*next;
 	struct s_cmd		*prev;
 }						t_cmd;
@@ -84,7 +84,7 @@ void				update_flag(t_flag *flag, char s);
 int 				semantica(t_flag *flag, char *line, int *i, int *j);
 int 				is_tokens_true(t_token *t);
 t_tree				*get_tree(t_token *token);
-void			execute(t_token *t);
+void			execute(t_cmd *t);
 
 
 void 				*init_tree(void);

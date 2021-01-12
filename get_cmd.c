@@ -33,6 +33,15 @@ t_cmd			*get_data_cmd(t_token *t, t_cmd *cmd)
 	{
 		if (cmd->prev)
 	}
+}*/
+
+
+t_cmd			*get_data_cmd(t_token *t, t_cmd *d)
+{
+	d->arr = ft_strsplit(t->data, ' ');
+	if (t->next)
+		d->type = t->next->c_type;
+	return (d);
 }
 
 t_cmd			*get_cmd(t_token *t)
@@ -44,10 +53,16 @@ t_cmd			*get_cmd(t_token *t)
 	cur_t = t;
 	head = init_cmd();
 	cur = head;
-	while (cur_t)
-	{
+	while (cur_t) {
 		cur = get_data_cmd(cur_t, cur);
+		if (cur_t->next && cur_t->next->next)
+		{
+			cur_t = cur_t->next->next;
+			cur->next = (t_cmd *) malloc(sizeof(t_cmd));
+			cur = cur->next;
+		}
+		else
+			break ;
 	}
-	return ();
-}*/
-
+	return (head);
+}

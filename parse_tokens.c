@@ -74,10 +74,11 @@ int 			main(void)
 	if (is_tokens_true(cur))
 	{
 		ft_putendl("true");
-		execute(cur);
+		cmd = get_cmd(cur);
+		execute(cmd);
 	}
 	//tree = get_tree(cur);
 	//cmd = get_cmd(cur);
-	ft_putendl(line);
+	//ft_putendl(line);
 	return (0);
 }
