@@ -88,6 +88,9 @@
 		<Unit filename="/Users/cassunta/Desktop/shsh/eject_redirect.c">
 			<Option target="shsh"/>
 		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/execute.c">
+			<Option target="shsh"/>
+		</Unit>
 		<Unit filename="/Users/cassunta/Desktop/shsh/flag.c">
 			<Option target="shsh"/>
 		</Unit>

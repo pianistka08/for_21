@@ -197,6 +197,33 @@ eject_redirect.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/eject_redirect.c.s
 .PHONY : eject_redirect.c.s
 
+execute.o: execute.c.o
+
+.PHONY : execute.o
+
+# target to build an object file
+execute.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/execute.c.o
+.PHONY : execute.c.o
+
+execute.i: execute.c.i
+
+.PHONY : execute.i
+
+# target to preprocess a source file
+execute.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/execute.c.i
+.PHONY : execute.c.i
+
+execute.s: execute.c.s
+
+.PHONY : execute.s
+
+# target to generate assembly for a file
+execute.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/execute.c.s
+.PHONY : execute.c.s
+
 flag.o: flag.c.o
 
 .PHONY : flag.o
@@ -2021,6 +2048,9 @@ help:
 	@echo "... eject_redirect.o"
 	@echo "... eject_redirect.i"
 	@echo "... eject_redirect.s"
+	@echo "... execute.o"
+	@echo "... execute.i"
+	@echo "... execute.s"
 	@echo "... flag.o"
 	@echo "... flag.i"
 	@echo "... flag.s"

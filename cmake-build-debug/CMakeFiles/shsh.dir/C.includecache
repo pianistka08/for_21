@@ -18,11 +18,37 @@ unistd.h
 fcntl.h
 -
 
-/Users/cassunta/Desktop/shsh/semantica.c
+/Users/cassunta/Desktop/shsh/execute.c
 sh.h
 /Users/cassunta/Desktop/shsh/sh.h
 
+/Users/cassunta/Desktop/shsh/libft/libft.h
+unistd.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+fcntl.h
+-
+
 /Users/cassunta/Desktop/shsh/sh.h
+stdlib.h
+-
+sys/wait.h
+-
+unistd.h
+-
+string.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+libft/libft.h
+/Users/cassunta/Desktop/shsh/libft/libft.h
 libft.h
 /Users/cassunta/Desktop/shsh/libft.h
 

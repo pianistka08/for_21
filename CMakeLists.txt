@@ -77,4 +77,5 @@ add_executable(shsh
         tree_ft.c
         init.c
         get_cmd.c
-        eject_redirect.c)
+        eject_redirect.c
+        execute.c)

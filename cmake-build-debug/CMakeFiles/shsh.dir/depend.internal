@@ -4,22 +4,32 @@
 CMakeFiles/shsh.dir/ampersand.c.o
  ../libft/libft.h
  /Users/cassunta/Desktop/shsh/ampersand.c
+ /Users/cassunta/Desktop/shsh/libft/libft.h
  /Users/cassunta/Desktop/shsh/sh.h
 CMakeFiles/shsh.dir/eject_redirect.c.o
  ../libft/libft.h
  /Users/cassunta/Desktop/shsh/eject_redirect.c
+ /Users/cassunta/Desktop/shsh/libft/libft.h
+ /Users/cassunta/Desktop/shsh/sh.h
+CMakeFiles/shsh.dir/execute.c.o
+ ../libft/libft.h
+ /Users/cassunta/Desktop/shsh/execute.c
+ /Users/cassunta/Desktop/shsh/libft/libft.h
  /Users/cassunta/Desktop/shsh/sh.h
 CMakeFiles/shsh.dir/flag.c.o
  ../libft/libft.h
  /Users/cassunta/Desktop/shsh/flag.c
+ /Users/cassunta/Desktop/shsh/libft/libft.h
  /Users/cassunta/Desktop/shsh/sh.h
 CMakeFiles/shsh.dir/get_cmd.c.o
  ../libft/libft.h
  /Users/cassunta/Desktop/shsh/get_cmd.c
+ /Users/cassunta/Desktop/shsh/libft/libft.h
  /Users/cassunta/Desktop/shsh/sh.h
 CMakeFiles/shsh.dir/init.c.o
  ../libft/libft.h
  /Users/cassunta/Desktop/shsh/init.c
+ /Users/cassunta/Desktop/shsh/libft/libft.h
  /Users/cassunta/Desktop/shsh/sh.h
 CMakeFiles/shsh.dir/libft/ft_atoi.c.o
  /Users/cassunta/Desktop/shsh/libft/ft_atoi.c
@@ -197,25 +207,31 @@ CMakeFiles/shsh.dir/libft/get_next_line.c.o
  /Users/cassunta/Desktop/shsh/libft/libft.h
 CMakeFiles/shsh.dir/parse_tokens.c.o
  ../libft/libft.h
+ /Users/cassunta/Desktop/shsh/libft/libft.h
  /Users/cassunta/Desktop/shsh/parse_tokens.c
  /Users/cassunta/Desktop/shsh/sh.h
 CMakeFiles/shsh.dir/pipe.c.o
  ../libft/libft.h
+ /Users/cassunta/Desktop/shsh/libft/libft.h
  /Users/cassunta/Desktop/shsh/pipe.c
  /Users/cassunta/Desktop/shsh/sh.h
 CMakeFiles/shsh.dir/semantica.c.o
  ../libft/libft.h
+ /Users/cassunta/Desktop/shsh/libft/libft.h
  /Users/cassunta/Desktop/shsh/semantica.c
  /Users/cassunta/Desktop/shsh/sh.h
 CMakeFiles/shsh.dir/token.c.o
  ../libft/libft.h
+ /Users/cassunta/Desktop/shsh/libft/libft.h
  /Users/cassunta/Desktop/shsh/sh.h
  /Users/cassunta/Desktop/shsh/token.c
 CMakeFiles/shsh.dir/tree.c.o
  ../libft/libft.h
+ /Users/cassunta/Desktop/shsh/libft/libft.h
  /Users/cassunta/Desktop/shsh/sh.h
  /Users/cassunta/Desktop/shsh/tree.c
 CMakeFiles/shsh.dir/tree_ft.c.o
  ../libft/libft.h
+ /Users/cassunta/Desktop/shsh/libft/libft.h
  /Users/cassunta/Desktop/shsh/sh.h
  /Users/cassunta/Desktop/shsh/tree_ft.c

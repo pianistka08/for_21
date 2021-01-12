@@ -72,7 +72,10 @@ int 			main(void)
 		flag = reset_flag(flag);
 	}
 	if (is_tokens_true(cur))
+	{
 		ft_putendl("true");
+		execute(cur);
+	}
 	//tree = get_tree(cur);
 	//cmd = get_cmd(cur);
 	ft_putendl(line);

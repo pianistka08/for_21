@@ -1,6 +1,14 @@
 #ifndef SH_H
 #define SH_H
 
+# include <stdlib.h>
+# include <sys/wait.h>
+# include <unistd.h>
+# include <string.h>
+# include <sys/types.h>
+# include <sys/stat.h>
+# include "libft/libft.h"
+
 # include "libft.h"
 # define BK "&"
 # define AND "&&"
@@ -11,6 +19,9 @@
 # define GGREAT ">>"
 # define LESS "<"
 # define LLESS "<<"
+
+extern char	**environ;
+
 
 typedef enum {
 	cmd = 1,
@@ -23,12 +34,9 @@ typedef enum {
 	and = 3,
 	ro = 4,
 	bk = 5,
+	out_w = 6,
+	out_add = 7,
 }			t_type_cmd;
-
-typedef enum {
-	out_w = 1,
-	out_add = 2,
-}			t_type_redirect;
 
 typedef struct			s_cmd
 {
@@ -63,6 +71,7 @@ typedef struct			s_token
 	int				priority;
 	int				type;
 	int					c_type;
+	int					status;
 	struct s_token		*next;
 	struct s_token		*prev;
 }						t_token;
@@ -75,6 +84,7 @@ void				update_flag(t_flag *flag, char s);
 int 				semantica(t_flag *flag, char *line, int *i, int *j);
 int 				is_tokens_true(t_token *t);
 t_tree				*get_tree(t_token *token);
+void			execute(t_token *t);
 
 
 void 				*init_tree(void);

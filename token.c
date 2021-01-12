@@ -50,6 +50,14 @@ int					get_cmd_type(char *s)
 		return (pi);
 	if (ft_strcmp(s, SC) == 0)
 		return (sc);
+	if (ft_strcmp(s, GREAT) == 0)
+		return (out_w);
+	if (ft_strcmp(s, GGREAT) == 0)
+		return (out_add);
+	//if(ft_strcmp(s, LESS) == 0)
+	//return ();
+	//if(ft_strcmp(s, LLESS) == 0)
+	//return ();
 }
 
 int 				is_tokens_true(t_token *t)
@@ -63,7 +71,10 @@ int 				is_tokens_true(t_token *t)
 				ft_strcmp(t->data, OR) == 0 ||
 				ft_strcmp(t->data, AND) == 0 ||
 				ft_strcmp(t->data, PIPE) == 0 ||
-				ft_strcmp(t->data, SC) == 0)
+				ft_strcmp(t->data, GREAT) == 0 ||
+				ft_strcmp(t->data, GGREAT) == 0 ||
+				ft_strcmp(t->data, LESS) == 0 ||
+				ft_strcmp(t->data, LLESS) == 0 )
 		{
 			t->type = cmd;
 			t->c_type = get_cmd_type(t->data);
@@ -90,5 +101,7 @@ t_token 			*init_token(void)
 	new->next = NULL;
 	new->prev = NULL;
 	new->c_type = 0;
+	new->type = 0;
+	new->status = 0;
 	return (new);
 }

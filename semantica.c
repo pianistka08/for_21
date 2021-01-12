@@ -26,7 +26,6 @@ char 				*get_semantica_ret(char *line, int *i, char *res, int j)
 		ret = get_redirect(line, i, res, j);
 		return (ret);
 	}
-
 }
 
 int 				semantica(t_flag *flag, char *line, int *i, int *j)
