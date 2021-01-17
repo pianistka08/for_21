@@ -18,6 +18,10 @@ unistd.h
 fcntl.h
 -
 
+/Users/cassunta/Desktop/shsh/execute.c
+sh.h
+/Users/cassunta/Desktop/shsh/sh.h
+
 /Users/cassunta/Desktop/shsh/libft/libft.h
 unistd.h
 -
@@ -30,9 +34,21 @@ unistd.h
 fcntl.h
 -
 
-/Users/cassunta/Desktop/shsh/parse_tokens.c
-sh.h
-/Users/cassunta/Desktop/shsh/sh.h
+/Users/cassunta/Desktop/shsh/minishell.h
+stdlib.h
+-
+sys/wait.h
+-
+unistd.h
+-
+string.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+libft/libft.h
+/Users/cassunta/Desktop/shsh/libft/libft.h
 
 /Users/cassunta/Desktop/shsh/sh.h
 stdlib.h
@@ -49,6 +65,8 @@ sys/stat.h
 -
 libft/libft.h
 /Users/cassunta/Desktop/shsh/libft/libft.h
+minishell.h
+/Users/cassunta/Desktop/shsh/minishell.h
 libft.h
 /Users/cassunta/Desktop/shsh/libft.h
 

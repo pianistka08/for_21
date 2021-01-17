@@ -41,44 +41,43 @@ char 				*get_data(char *line, int *n, t_flag *flag)
 	return (ret);
 }
 
-int 			main(void)
+void			execute_cmd_line(char *cmd, t_list *env)
 {
-	t_token		*token;
-	char 		*line;
-	int 		car;
-	t_flag		*flag;
-	int 		l;
-	//t_tree		*tree;
-	t_token 	*cur;
-	t_cmd		*cmd;
+	char		**exp;
+	int			i;
+	t_cmd		*head;
+	t_cmd		*cur;
 
-	line = NULL;
-	car = 0;
-	get_next_line(0, &line);
-	l = ft_strlen(line);
-	line[l] = '\0';
-	token = init_token();
-	cur = token;
-	flag = init_flag();
-	token->data = get_data(line, &car, flag);
-	while (car < l)
+	i = 0;
+	head = init_cmd();
+	cur = head;
+	exp = ft_strsplit(cmd, '|');
+	while (exp[i])
 	{
-		token->next = init_token();
-		token->next->prev = token;
-		token = token->next;
-		token->data = get_data(line, &car, flag);
-		if (ft_strcmp(token->data, "") == 0)
-			token->data = get_data(line, &car, flag);
-		flag = reset_flag(flag);
+		cur->arr = ft_strsplit(exp[i], ' ');
+		if (exp[i + 1])
+		{
+			cur->type = 2;
+			cur->next = init_cmd();
+			cur->next->prev = cur;
+			cur = cur->next;
+		}
+		i++;
 	}
-	if (is_tokens_true(cur))
-	{
-		ft_putendl("true");
-		cmd = get_cmd(cur);
-		execute(cmd);
-	}
-	//tree = get_tree(cur);
-	//cmd = get_cmd(cur);
-	//ft_putendl(line);
-	return (0);
+	execute(head, env);
+}
+
+void				parse_p(char *line, t_list *env)
+{
+	char		**cmd_blocks;
+	int			i;
+
+	i = 0;
+	cmd_blocks = ft_strsplit(line, ';');
+	while (cmd_blocks[i])
+		{
+			execute_cmd_line(cmd_blocks[i], env);
+			i++;
+		}
+	ft_strsplit_free(&cmd_blocks);
 }

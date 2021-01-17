@@ -8,6 +8,7 @@
 # include <sys/types.h>
 # include <sys/stat.h>
 # include "libft/libft.h"
+# include "minishell.h"
 
 # include "libft.h"
 # define BK "&"
@@ -41,8 +42,7 @@ typedef enum {
 typedef struct			s_cmd
 {
 	char				**arr; //аргументы
-	int					fd1; // для перенаправлений с конкретного на конкретный дескриптор
-	int					fd2;
+	int					fd[2]; // для перенаправлений с конкретного на конкретный дескриптор
 	int					r_type; // тип редиректа для редиректа
 	int					type; //
 	char				*target; // имя файла в случае редиректа
@@ -84,8 +84,6 @@ void				update_flag(t_flag *flag, char s);
 int 				semantica(t_flag *flag, char *line, int *i, int *j);
 int 				is_tokens_true(t_token *t);
 t_tree				*get_tree(t_token *token);
-void			execute(t_cmd *t);
-
 
 void 				*init_tree(void);
 void 				*set_child(t_tree *child, t_tree *parent, int f);
@@ -102,6 +100,7 @@ t_cmd			*init_cmd(void);
 t_cmd			*get_cmd(t_token *t);
 t_cmd			*get_data_with_redirect(char *s, t_cmd *cmd);
 char			*get_redirect(char *line, int *i, char *res, int j);
-
+void			parse_p(char *line, t_list *env);
+void			execute(t_cmd *cmd, t_list *env);
 
 #endif

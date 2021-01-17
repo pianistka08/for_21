@@ -4,32 +4,32 @@
 CMakeFiles/shsh.dir/ampersand.c.o: ../libft/libft.h
 CMakeFiles/shsh.dir/ampersand.c.o: ../ampersand.c
 CMakeFiles/shsh.dir/ampersand.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/ampersand.c.o: ../minishell.h
 CMakeFiles/shsh.dir/ampersand.c.o: ../sh.h
 
 CMakeFiles/shsh.dir/eject_redirect.c.o: ../libft/libft.h
 CMakeFiles/shsh.dir/eject_redirect.c.o: ../eject_redirect.c
 CMakeFiles/shsh.dir/eject_redirect.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/eject_redirect.c.o: ../minishell.h
 CMakeFiles/shsh.dir/eject_redirect.c.o: ../sh.h
 
 CMakeFiles/shsh.dir/execute.c.o: ../libft/libft.h
 CMakeFiles/shsh.dir/execute.c.o: ../execute.c
 CMakeFiles/shsh.dir/execute.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/execute.c.o: ../minishell.h
 CMakeFiles/shsh.dir/execute.c.o: ../sh.h
 
 CMakeFiles/shsh.dir/flag.c.o: ../libft/libft.h
 CMakeFiles/shsh.dir/flag.c.o: ../flag.c
 CMakeFiles/shsh.dir/flag.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/flag.c.o: ../minishell.h
 CMakeFiles/shsh.dir/flag.c.o: ../sh.h
 
 CMakeFiles/shsh.dir/get_cmd.c.o: ../libft/libft.h
 CMakeFiles/shsh.dir/get_cmd.c.o: ../get_cmd.c
 CMakeFiles/shsh.dir/get_cmd.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/get_cmd.c.o: ../minishell.h
 CMakeFiles/shsh.dir/get_cmd.c.o: ../sh.h
-
-CMakeFiles/shsh.dir/init.c.o: ../libft/libft.h
-CMakeFiles/shsh.dir/init.c.o: ../init.c
-CMakeFiles/shsh.dir/init.c.o: ../libft/libft.h
-CMakeFiles/shsh.dir/init.c.o: ../sh.h
 
 CMakeFiles/shsh.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
 CMakeFiles/shsh.dir/libft/ft_atoi.c.o: ../libft/libft.h
@@ -205,33 +205,84 @@ CMakeFiles/shsh.dir/libft/ft_wordcount.c.o: ../libft/libft.h
 CMakeFiles/shsh.dir/libft/get_next_line.c.o: ../libft/get_next_line.c
 CMakeFiles/shsh.dir/libft/get_next_line.c.o: ../libft/libft.h
 
+CMakeFiles/shsh.dir/msh/cd.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/msh/cd.c.o: ../minishell.h
+CMakeFiles/shsh.dir/msh/cd.c.o: ../msh/cd.c
+
+CMakeFiles/shsh.dir/msh/cd_1.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/msh/cd_1.c.o: ../minishell.h
+CMakeFiles/shsh.dir/msh/cd_1.c.o: ../msh/cd_1.c
+
+CMakeFiles/shsh.dir/msh/env_echo.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/msh/env_echo.c.o: ../minishell.h
+CMakeFiles/shsh.dir/msh/env_echo.c.o: ../msh/env_echo.c
+
+CMakeFiles/shsh.dir/msh/environ.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/msh/environ.c.o: ../minishell.h
+CMakeFiles/shsh.dir/msh/environ.c.o: ../msh/environ.c
+
+CMakeFiles/shsh.dir/msh/exec.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/msh/exec.c.o: ../minishell.h
+CMakeFiles/shsh.dir/msh/exec.c.o: ../msh/exec.c
+
+CMakeFiles/shsh.dir/msh/free.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/msh/free.c.o: ../minishell.h
+CMakeFiles/shsh.dir/msh/free.c.o: ../msh/free.c
+
+CMakeFiles/shsh.dir/msh/init.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/msh/init.c.o: ../minishell.h
+CMakeFiles/shsh.dir/msh/init.c.o: ../sh.h
+CMakeFiles/shsh.dir/msh/init.c.o: ../msh/init.c
+
+CMakeFiles/shsh.dir/msh/init_environ.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/msh/init_environ.c.o: ../minishell.h
+CMakeFiles/shsh.dir/msh/init_environ.c.o: ../msh/init_environ.c
+
+CMakeFiles/shsh.dir/msh/main.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/msh/main.c.o: ../minishell.h
+CMakeFiles/shsh.dir/msh/main.c.o: ../msh/main.c
+
+CMakeFiles/shsh.dir/msh/other.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/msh/other.c.o: ../minishell.h
+CMakeFiles/shsh.dir/msh/other.c.o: ../msh/other.c
+
+CMakeFiles/shsh.dir/msh/retouch_line.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/msh/retouch_line.c.o: ../minishell.h
+CMakeFiles/shsh.dir/msh/retouch_line.c.o: ../msh/retouch_line.c
+
 CMakeFiles/shsh.dir/parse_tokens.c.o: ../libft/libft.h
 CMakeFiles/shsh.dir/parse_tokens.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/parse_tokens.c.o: ../minishell.h
 CMakeFiles/shsh.dir/parse_tokens.c.o: ../parse_tokens.c
 CMakeFiles/shsh.dir/parse_tokens.c.o: ../sh.h
 
 CMakeFiles/shsh.dir/pipe.c.o: ../libft/libft.h
 CMakeFiles/shsh.dir/pipe.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/pipe.c.o: ../minishell.h
 CMakeFiles/shsh.dir/pipe.c.o: ../pipe.c
 CMakeFiles/shsh.dir/pipe.c.o: ../sh.h
 
 CMakeFiles/shsh.dir/semantica.c.o: ../libft/libft.h
 CMakeFiles/shsh.dir/semantica.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/semantica.c.o: ../minishell.h
 CMakeFiles/shsh.dir/semantica.c.o: ../semantica.c
 CMakeFiles/shsh.dir/semantica.c.o: ../sh.h
 
 CMakeFiles/shsh.dir/token.c.o: ../libft/libft.h
 CMakeFiles/shsh.dir/token.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/token.c.o: ../minishell.h
 CMakeFiles/shsh.dir/token.c.o: ../sh.h
 CMakeFiles/shsh.dir/token.c.o: ../token.c
 
 CMakeFiles/shsh.dir/tree.c.o: ../libft/libft.h
 CMakeFiles/shsh.dir/tree.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/tree.c.o: ../minishell.h
 CMakeFiles/shsh.dir/tree.c.o: ../sh.h
 CMakeFiles/shsh.dir/tree.c.o: ../tree.c
 
 CMakeFiles/shsh.dir/tree_ft.c.o: ../libft/libft.h
 CMakeFiles/shsh.dir/tree_ft.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/tree_ft.c.o: ../minishell.h
 CMakeFiles/shsh.dir/tree_ft.c.o: ../sh.h
 CMakeFiles/shsh.dir/tree_ft.c.o: ../tree_ft.c
 

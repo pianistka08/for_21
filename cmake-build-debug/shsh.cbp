@@ -97,9 +97,6 @@
 		<Unit filename="/Users/cassunta/Desktop/shsh/get_cmd.c">
 			<Option target="shsh"/>
 		</Unit>
-		<Unit filename="/Users/cassunta/Desktop/shsh/init.c">
-			<Option target="shsh"/>
-		</Unit>
 		<Unit filename="/Users/cassunta/Desktop/shsh/libft/ft_atoi.c">
 			<Option target="shsh"/>
 		</Unit>
@@ -275,6 +272,39 @@
 			<Option target="shsh"/>
 		</Unit>
 		<Unit filename="/Users/cassunta/Desktop/shsh/libft/libft.h">
+			<Option target="shsh"/>
+		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/msh/cd.c">
+			<Option target="shsh"/>
+		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/msh/cd_1.c">
+			<Option target="shsh"/>
+		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/msh/env_echo.c">
+			<Option target="shsh"/>
+		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/msh/environ.c">
+			<Option target="shsh"/>
+		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/msh/exec.c">
+			<Option target="shsh"/>
+		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/msh/free.c">
+			<Option target="shsh"/>
+		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/msh/init.c">
+			<Option target="shsh"/>
+		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/msh/init_environ.c">
+			<Option target="shsh"/>
+		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/msh/main.c">
+			<Option target="shsh"/>
+		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/msh/other.c">
+			<Option target="shsh"/>
+		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/msh/retouch_line.c">
 			<Option target="shsh"/>
 		</Unit>
 		<Unit filename="/Users/cassunta/Desktop/shsh/parse_tokens.c">

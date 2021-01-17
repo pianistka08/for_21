@@ -5,31 +5,31 @@ CMakeFiles/shsh.dir/ampersand.c.o
  ../libft/libft.h
  /Users/cassunta/Desktop/shsh/ampersand.c
  /Users/cassunta/Desktop/shsh/libft/libft.h
+ /Users/cassunta/Desktop/shsh/minishell.h
  /Users/cassunta/Desktop/shsh/sh.h
 CMakeFiles/shsh.dir/eject_redirect.c.o
  ../libft/libft.h
  /Users/cassunta/Desktop/shsh/eject_redirect.c
  /Users/cassunta/Desktop/shsh/libft/libft.h
+ /Users/cassunta/Desktop/shsh/minishell.h
  /Users/cassunta/Desktop/shsh/sh.h
 CMakeFiles/shsh.dir/execute.c.o
  ../libft/libft.h
  /Users/cassunta/Desktop/shsh/execute.c
  /Users/cassunta/Desktop/shsh/libft/libft.h
+ /Users/cassunta/Desktop/shsh/minishell.h
  /Users/cassunta/Desktop/shsh/sh.h
 CMakeFiles/shsh.dir/flag.c.o
  ../libft/libft.h
  /Users/cassunta/Desktop/shsh/flag.c
  /Users/cassunta/Desktop/shsh/libft/libft.h
+ /Users/cassunta/Desktop/shsh/minishell.h
  /Users/cassunta/Desktop/shsh/sh.h
 CMakeFiles/shsh.dir/get_cmd.c.o
  ../libft/libft.h
  /Users/cassunta/Desktop/shsh/get_cmd.c
  /Users/cassunta/Desktop/shsh/libft/libft.h
- /Users/cassunta/Desktop/shsh/sh.h
-CMakeFiles/shsh.dir/init.c.o
- ../libft/libft.h
- /Users/cassunta/Desktop/shsh/init.c
- /Users/cassunta/Desktop/shsh/libft/libft.h
+ /Users/cassunta/Desktop/shsh/minishell.h
  /Users/cassunta/Desktop/shsh/sh.h
 CMakeFiles/shsh.dir/libft/ft_atoi.c.o
  /Users/cassunta/Desktop/shsh/libft/ft_atoi.c
@@ -205,33 +205,84 @@ CMakeFiles/shsh.dir/libft/ft_wordcount.c.o
 CMakeFiles/shsh.dir/libft/get_next_line.c.o
  /Users/cassunta/Desktop/shsh/libft/get_next_line.c
  /Users/cassunta/Desktop/shsh/libft/libft.h
+CMakeFiles/shsh.dir/msh/cd.c.o
+ ../libft/libft.h
+ ../minishell.h
+ /Users/cassunta/Desktop/shsh/msh/cd.c
+CMakeFiles/shsh.dir/msh/cd_1.c.o
+ ../libft/libft.h
+ ../minishell.h
+ /Users/cassunta/Desktop/shsh/msh/cd_1.c
+CMakeFiles/shsh.dir/msh/env_echo.c.o
+ ../libft/libft.h
+ ../minishell.h
+ /Users/cassunta/Desktop/shsh/msh/env_echo.c
+CMakeFiles/shsh.dir/msh/environ.c.o
+ ../libft/libft.h
+ ../minishell.h
+ /Users/cassunta/Desktop/shsh/msh/environ.c
+CMakeFiles/shsh.dir/msh/exec.c.o
+ ../libft/libft.h
+ ../minishell.h
+ /Users/cassunta/Desktop/shsh/msh/exec.c
+CMakeFiles/shsh.dir/msh/free.c.o
+ ../libft/libft.h
+ ../minishell.h
+ /Users/cassunta/Desktop/shsh/msh/free.c
+CMakeFiles/shsh.dir/msh/init.c.o
+ ../libft/libft.h
+ ../minishell.h
+ ../sh.h
+ /Users/cassunta/Desktop/shsh/msh/init.c
+CMakeFiles/shsh.dir/msh/init_environ.c.o
+ ../libft/libft.h
+ ../minishell.h
+ /Users/cassunta/Desktop/shsh/msh/init_environ.c
+CMakeFiles/shsh.dir/msh/main.c.o
+ ../libft/libft.h
+ ../minishell.h
+ /Users/cassunta/Desktop/shsh/msh/main.c
+CMakeFiles/shsh.dir/msh/other.c.o
+ ../libft/libft.h
+ ../minishell.h
+ /Users/cassunta/Desktop/shsh/msh/other.c
+CMakeFiles/shsh.dir/msh/retouch_line.c.o
+ ../libft/libft.h
+ ../minishell.h
+ /Users/cassunta/Desktop/shsh/msh/retouch_line.c
 CMakeFiles/shsh.dir/parse_tokens.c.o
  ../libft/libft.h
  /Users/cassunta/Desktop/shsh/libft/libft.h
+ /Users/cassunta/Desktop/shsh/minishell.h
  /Users/cassunta/Desktop/shsh/parse_tokens.c
  /Users/cassunta/Desktop/shsh/sh.h
 CMakeFiles/shsh.dir/pipe.c.o
  ../libft/libft.h
  /Users/cassunta/Desktop/shsh/libft/libft.h
+ /Users/cassunta/Desktop/shsh/minishell.h
  /Users/cassunta/Desktop/shsh/pipe.c
  /Users/cassunta/Desktop/shsh/sh.h
 CMakeFiles/shsh.dir/semantica.c.o
  ../libft/libft.h
  /Users/cassunta/Desktop/shsh/libft/libft.h
+ /Users/cassunta/Desktop/shsh/minishell.h
  /Users/cassunta/Desktop/shsh/semantica.c
  /Users/cassunta/Desktop/shsh/sh.h
 CMakeFiles/shsh.dir/token.c.o
  ../libft/libft.h
  /Users/cassunta/Desktop/shsh/libft/libft.h
+ /Users/cassunta/Desktop/shsh/minishell.h
  /Users/cassunta/Desktop/shsh/sh.h
  /Users/cassunta/Desktop/shsh/token.c
 CMakeFiles/shsh.dir/tree.c.o
  ../libft/libft.h
  /Users/cassunta/Desktop/shsh/libft/libft.h
+ /Users/cassunta/Desktop/shsh/minishell.h
  /Users/cassunta/Desktop/shsh/sh.h
  /Users/cassunta/Desktop/shsh/tree.c
 CMakeFiles/shsh.dir/tree_ft.c.o
  ../libft/libft.h
  /Users/cassunta/Desktop/shsh/libft/libft.h
+ /Users/cassunta/Desktop/shsh/minishell.h
  /Users/cassunta/Desktop/shsh/sh.h
  /Users/cassunta/Desktop/shsh/tree_ft.c

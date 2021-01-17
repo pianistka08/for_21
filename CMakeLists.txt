@@ -75,7 +75,17 @@ add_executable(shsh
         token.c
         tree.c
         tree_ft.c
-        init.c
         get_cmd.c
         eject_redirect.c
-        execute.c)
+        execute.c
+        msh/cd.c
+        msh/cd_1.c
+        msh/env_echo.c
+        msh/environ.c
+        msh/exec.c
+        msh/free.c
+        msh/init.c
+        msh/init_environ.c
+        msh/main.c
+        msh/other.c
+        msh/retouch_line.c)

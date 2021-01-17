@@ -935,22 +935,9 @@ CMakeFiles/shsh.dir/tree_ft.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shsh.dir/tree_ft.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cassunta/Desktop/shsh/tree_ft.c -o CMakeFiles/shsh.dir/tree_ft.c.s
 
-CMakeFiles/shsh.dir/init.c.o: CMakeFiles/shsh.dir/flags.make
-CMakeFiles/shsh.dir/init.c.o: ../init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/shsh.dir/init.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shsh.dir/init.c.o   -c /Users/cassunta/Desktop/shsh/init.c
-
-CMakeFiles/shsh.dir/init.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shsh.dir/init.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cassunta/Desktop/shsh/init.c > CMakeFiles/shsh.dir/init.c.i
-
-CMakeFiles/shsh.dir/init.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shsh.dir/init.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cassunta/Desktop/shsh/init.c -o CMakeFiles/shsh.dir/init.c.s
-
 CMakeFiles/shsh.dir/get_cmd.c.o: CMakeFiles/shsh.dir/flags.make
 CMakeFiles/shsh.dir/get_cmd.c.o: ../get_cmd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/shsh.dir/get_cmd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/shsh.dir/get_cmd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shsh.dir/get_cmd.c.o   -c /Users/cassunta/Desktop/shsh/get_cmd.c
 
 CMakeFiles/shsh.dir/get_cmd.c.i: cmake_force
@@ -963,7 +950,7 @@ CMakeFiles/shsh.dir/get_cmd.c.s: cmake_force
 
 CMakeFiles/shsh.dir/eject_redirect.c.o: CMakeFiles/shsh.dir/flags.make
 CMakeFiles/shsh.dir/eject_redirect.c.o: ../eject_redirect.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/shsh.dir/eject_redirect.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/shsh.dir/eject_redirect.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shsh.dir/eject_redirect.c.o   -c /Users/cassunta/Desktop/shsh/eject_redirect.c
 
 CMakeFiles/shsh.dir/eject_redirect.c.i: cmake_force
@@ -976,7 +963,7 @@ CMakeFiles/shsh.dir/eject_redirect.c.s: cmake_force
 
 CMakeFiles/shsh.dir/execute.c.o: CMakeFiles/shsh.dir/flags.make
 CMakeFiles/shsh.dir/execute.c.o: ../execute.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/shsh.dir/execute.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/shsh.dir/execute.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shsh.dir/execute.c.o   -c /Users/cassunta/Desktop/shsh/execute.c
 
 CMakeFiles/shsh.dir/execute.c.i: cmake_force
@@ -986,6 +973,149 @@ CMakeFiles/shsh.dir/execute.c.i: cmake_force
 CMakeFiles/shsh.dir/execute.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shsh.dir/execute.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cassunta/Desktop/shsh/execute.c -o CMakeFiles/shsh.dir/execute.c.s
+
+CMakeFiles/shsh.dir/msh/cd.c.o: CMakeFiles/shsh.dir/flags.make
+CMakeFiles/shsh.dir/msh/cd.c.o: ../msh/cd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/shsh.dir/msh/cd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shsh.dir/msh/cd.c.o   -c /Users/cassunta/Desktop/shsh/msh/cd.c
+
+CMakeFiles/shsh.dir/msh/cd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shsh.dir/msh/cd.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cassunta/Desktop/shsh/msh/cd.c > CMakeFiles/shsh.dir/msh/cd.c.i
+
+CMakeFiles/shsh.dir/msh/cd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shsh.dir/msh/cd.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cassunta/Desktop/shsh/msh/cd.c -o CMakeFiles/shsh.dir/msh/cd.c.s
+
+CMakeFiles/shsh.dir/msh/cd_1.c.o: CMakeFiles/shsh.dir/flags.make
+CMakeFiles/shsh.dir/msh/cd_1.c.o: ../msh/cd_1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/shsh.dir/msh/cd_1.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shsh.dir/msh/cd_1.c.o   -c /Users/cassunta/Desktop/shsh/msh/cd_1.c
+
+CMakeFiles/shsh.dir/msh/cd_1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shsh.dir/msh/cd_1.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cassunta/Desktop/shsh/msh/cd_1.c > CMakeFiles/shsh.dir/msh/cd_1.c.i
+
+CMakeFiles/shsh.dir/msh/cd_1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shsh.dir/msh/cd_1.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cassunta/Desktop/shsh/msh/cd_1.c -o CMakeFiles/shsh.dir/msh/cd_1.c.s
+
+CMakeFiles/shsh.dir/msh/env_echo.c.o: CMakeFiles/shsh.dir/flags.make
+CMakeFiles/shsh.dir/msh/env_echo.c.o: ../msh/env_echo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/shsh.dir/msh/env_echo.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shsh.dir/msh/env_echo.c.o   -c /Users/cassunta/Desktop/shsh/msh/env_echo.c
+
+CMakeFiles/shsh.dir/msh/env_echo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shsh.dir/msh/env_echo.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cassunta/Desktop/shsh/msh/env_echo.c > CMakeFiles/shsh.dir/msh/env_echo.c.i
+
+CMakeFiles/shsh.dir/msh/env_echo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shsh.dir/msh/env_echo.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cassunta/Desktop/shsh/msh/env_echo.c -o CMakeFiles/shsh.dir/msh/env_echo.c.s
+
+CMakeFiles/shsh.dir/msh/environ.c.o: CMakeFiles/shsh.dir/flags.make
+CMakeFiles/shsh.dir/msh/environ.c.o: ../msh/environ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/shsh.dir/msh/environ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shsh.dir/msh/environ.c.o   -c /Users/cassunta/Desktop/shsh/msh/environ.c
+
+CMakeFiles/shsh.dir/msh/environ.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shsh.dir/msh/environ.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cassunta/Desktop/shsh/msh/environ.c > CMakeFiles/shsh.dir/msh/environ.c.i
+
+CMakeFiles/shsh.dir/msh/environ.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shsh.dir/msh/environ.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cassunta/Desktop/shsh/msh/environ.c -o CMakeFiles/shsh.dir/msh/environ.c.s
+
+CMakeFiles/shsh.dir/msh/exec.c.o: CMakeFiles/shsh.dir/flags.make
+CMakeFiles/shsh.dir/msh/exec.c.o: ../msh/exec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/shsh.dir/msh/exec.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shsh.dir/msh/exec.c.o   -c /Users/cassunta/Desktop/shsh/msh/exec.c
+
+CMakeFiles/shsh.dir/msh/exec.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shsh.dir/msh/exec.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cassunta/Desktop/shsh/msh/exec.c > CMakeFiles/shsh.dir/msh/exec.c.i
+
+CMakeFiles/shsh.dir/msh/exec.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shsh.dir/msh/exec.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cassunta/Desktop/shsh/msh/exec.c -o CMakeFiles/shsh.dir/msh/exec.c.s
+
+CMakeFiles/shsh.dir/msh/free.c.o: CMakeFiles/shsh.dir/flags.make
+CMakeFiles/shsh.dir/msh/free.c.o: ../msh/free.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/shsh.dir/msh/free.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shsh.dir/msh/free.c.o   -c /Users/cassunta/Desktop/shsh/msh/free.c
+
+CMakeFiles/shsh.dir/msh/free.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shsh.dir/msh/free.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cassunta/Desktop/shsh/msh/free.c > CMakeFiles/shsh.dir/msh/free.c.i
+
+CMakeFiles/shsh.dir/msh/free.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shsh.dir/msh/free.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cassunta/Desktop/shsh/msh/free.c -o CMakeFiles/shsh.dir/msh/free.c.s
+
+CMakeFiles/shsh.dir/msh/init.c.o: CMakeFiles/shsh.dir/flags.make
+CMakeFiles/shsh.dir/msh/init.c.o: ../msh/init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/shsh.dir/msh/init.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shsh.dir/msh/init.c.o   -c /Users/cassunta/Desktop/shsh/msh/init.c
+
+CMakeFiles/shsh.dir/msh/init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shsh.dir/msh/init.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cassunta/Desktop/shsh/msh/init.c > CMakeFiles/shsh.dir/msh/init.c.i
+
+CMakeFiles/shsh.dir/msh/init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shsh.dir/msh/init.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cassunta/Desktop/shsh/msh/init.c -o CMakeFiles/shsh.dir/msh/init.c.s
+
+CMakeFiles/shsh.dir/msh/init_environ.c.o: CMakeFiles/shsh.dir/flags.make
+CMakeFiles/shsh.dir/msh/init_environ.c.o: ../msh/init_environ.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/shsh.dir/msh/init_environ.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shsh.dir/msh/init_environ.c.o   -c /Users/cassunta/Desktop/shsh/msh/init_environ.c
+
+CMakeFiles/shsh.dir/msh/init_environ.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shsh.dir/msh/init_environ.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cassunta/Desktop/shsh/msh/init_environ.c > CMakeFiles/shsh.dir/msh/init_environ.c.i
+
+CMakeFiles/shsh.dir/msh/init_environ.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shsh.dir/msh/init_environ.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cassunta/Desktop/shsh/msh/init_environ.c -o CMakeFiles/shsh.dir/msh/init_environ.c.s
+
+CMakeFiles/shsh.dir/msh/main.c.o: CMakeFiles/shsh.dir/flags.make
+CMakeFiles/shsh.dir/msh/main.c.o: ../msh/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/shsh.dir/msh/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shsh.dir/msh/main.c.o   -c /Users/cassunta/Desktop/shsh/msh/main.c
+
+CMakeFiles/shsh.dir/msh/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shsh.dir/msh/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cassunta/Desktop/shsh/msh/main.c > CMakeFiles/shsh.dir/msh/main.c.i
+
+CMakeFiles/shsh.dir/msh/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shsh.dir/msh/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cassunta/Desktop/shsh/msh/main.c -o CMakeFiles/shsh.dir/msh/main.c.s
+
+CMakeFiles/shsh.dir/msh/other.c.o: CMakeFiles/shsh.dir/flags.make
+CMakeFiles/shsh.dir/msh/other.c.o: ../msh/other.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/shsh.dir/msh/other.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shsh.dir/msh/other.c.o   -c /Users/cassunta/Desktop/shsh/msh/other.c
+
+CMakeFiles/shsh.dir/msh/other.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shsh.dir/msh/other.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cassunta/Desktop/shsh/msh/other.c > CMakeFiles/shsh.dir/msh/other.c.i
+
+CMakeFiles/shsh.dir/msh/other.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shsh.dir/msh/other.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cassunta/Desktop/shsh/msh/other.c -o CMakeFiles/shsh.dir/msh/other.c.s
+
+CMakeFiles/shsh.dir/msh/retouch_line.c.o: CMakeFiles/shsh.dir/flags.make
+CMakeFiles/shsh.dir/msh/retouch_line.c.o: ../msh/retouch_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/shsh.dir/msh/retouch_line.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/shsh.dir/msh/retouch_line.c.o   -c /Users/cassunta/Desktop/shsh/msh/retouch_line.c
+
+CMakeFiles/shsh.dir/msh/retouch_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/shsh.dir/msh/retouch_line.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cassunta/Desktop/shsh/msh/retouch_line.c > CMakeFiles/shsh.dir/msh/retouch_line.c.i
+
+CMakeFiles/shsh.dir/msh/retouch_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/shsh.dir/msh/retouch_line.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cassunta/Desktop/shsh/msh/retouch_line.c -o CMakeFiles/shsh.dir/msh/retouch_line.c.s
 
 # Object files for target shsh
 shsh_OBJECTS = \
@@ -1055,10 +1185,20 @@ shsh_OBJECTS = \
 "CMakeFiles/shsh.dir/token.c.o" \
 "CMakeFiles/shsh.dir/tree.c.o" \
 "CMakeFiles/shsh.dir/tree_ft.c.o" \
-"CMakeFiles/shsh.dir/init.c.o" \
 "CMakeFiles/shsh.dir/get_cmd.c.o" \
 "CMakeFiles/shsh.dir/eject_redirect.c.o" \
-"CMakeFiles/shsh.dir/execute.c.o"
+"CMakeFiles/shsh.dir/execute.c.o" \
+"CMakeFiles/shsh.dir/msh/cd.c.o" \
+"CMakeFiles/shsh.dir/msh/cd_1.c.o" \
+"CMakeFiles/shsh.dir/msh/env_echo.c.o" \
+"CMakeFiles/shsh.dir/msh/environ.c.o" \
+"CMakeFiles/shsh.dir/msh/exec.c.o" \
+"CMakeFiles/shsh.dir/msh/free.c.o" \
+"CMakeFiles/shsh.dir/msh/init.c.o" \
+"CMakeFiles/shsh.dir/msh/init_environ.c.o" \
+"CMakeFiles/shsh.dir/msh/main.c.o" \
+"CMakeFiles/shsh.dir/msh/other.c.o" \
+"CMakeFiles/shsh.dir/msh/retouch_line.c.o"
 
 # External object files for target shsh
 shsh_EXTERNAL_OBJECTS =
@@ -1129,13 +1269,23 @@ shsh: CMakeFiles/shsh.dir/semantica.c.o
 shsh: CMakeFiles/shsh.dir/token.c.o
 shsh: CMakeFiles/shsh.dir/tree.c.o
 shsh: CMakeFiles/shsh.dir/tree_ft.c.o
-shsh: CMakeFiles/shsh.dir/init.c.o
 shsh: CMakeFiles/shsh.dir/get_cmd.c.o
 shsh: CMakeFiles/shsh.dir/eject_redirect.c.o
 shsh: CMakeFiles/shsh.dir/execute.c.o
+shsh: CMakeFiles/shsh.dir/msh/cd.c.o
+shsh: CMakeFiles/shsh.dir/msh/cd_1.c.o
+shsh: CMakeFiles/shsh.dir/msh/env_echo.c.o
+shsh: CMakeFiles/shsh.dir/msh/environ.c.o
+shsh: CMakeFiles/shsh.dir/msh/exec.c.o
+shsh: CMakeFiles/shsh.dir/msh/free.c.o
+shsh: CMakeFiles/shsh.dir/msh/init.c.o
+shsh: CMakeFiles/shsh.dir/msh/init_environ.c.o
+shsh: CMakeFiles/shsh.dir/msh/main.c.o
+shsh: CMakeFiles/shsh.dir/msh/other.c.o
+shsh: CMakeFiles/shsh.dir/msh/retouch_line.c.o
 shsh: CMakeFiles/shsh.dir/build.make
 shsh: CMakeFiles/shsh.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Linking C executable shsh"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Linking C executable shsh"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/shsh.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
