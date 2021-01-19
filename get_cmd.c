@@ -17,12 +17,13 @@ t_cmd			*get_cmd(t_token *t)
 	cur_t = t;
 	head = init_cmd();
 	cur = head;
-	while (cur_t) {
+	while (cur_t)
+	{
 		cur = get_data_cmd(cur_t, cur);
 		if (cur_t->next && cur_t->next->next)
 		{
 			cur_t = cur_t->next->next;
-			cur->next = (t_cmd *) malloc(sizeof(t_cmd));
+			cur->next = new_cmd(cur);
 			cur = cur->next;
 		}
 		else

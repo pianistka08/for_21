@@ -18,25 +18,9 @@ unistd.h
 fcntl.h
 -
 
-/Users/cassunta/Desktop/shsh/ampersand.c
+/Users/cassunta/Desktop/shsh/get_cmd.c
 sh.h
 /Users/cassunta/Desktop/shsh/sh.h
-
-/Users/cassunta/Desktop/shsh/eject_redirect.c
-sh.h
-/Users/cassunta/Desktop/shsh/sh.h
-
-/Users/cassunta/Desktop/shsh/execute.c
-sh.h
-/Users/cassunta/Desktop/shsh/sh.h
-
-/Users/cassunta/Desktop/shsh/flag.c
-sh.h
-/Users/cassunta/Desktop/shsh/sh.h
-
-/Users/cassunta/Desktop/shsh/libft/ft_strsplit.c
-libft.h
-/Users/cassunta/Desktop/shsh/libft/libft.h
 
 /Users/cassunta/Desktop/shsh/libft/libft.h
 unistd.h
@@ -49,14 +33,6 @@ unistd.h
 -
 fcntl.h
 -
-
-/Users/cassunta/Desktop/shsh/pipe.c
-sh.h
-/Users/cassunta/Desktop/shsh/sh.h
-
-/Users/cassunta/Desktop/shsh/semantica.c
-sh.h
-/Users/cassunta/Desktop/shsh/sh.h
 
 /Users/cassunta/Desktop/shsh/sh.h
 stdlib.h
@@ -75,8 +51,4 @@ libft/libft.h
 /Users/cassunta/Desktop/shsh/libft/libft.h
 libft.h
 /Users/cassunta/Desktop/shsh/libft.h
-
-/Users/cassunta/Desktop/shsh/tree.c
-sh.h
-/Users/cassunta/Desktop/shsh/sh.h
 

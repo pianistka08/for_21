@@ -207,12 +207,6 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
 //Value Computed by CMake
-sh_BINARY_DIR:STATIC=/Users/cassunta/Desktop/shsh/cmake-build-debug
-
-//Value Computed by CMake
-sh_SOURCE_DIR:STATIC=/Users/cassunta/Desktop/shsh
-
-//Value Computed by CMake
 shsh_BINARY_DIR:STATIC=/Users/cassunta/Desktop/shsh/cmake-build-debug
 
 //Value Computed by CMake
