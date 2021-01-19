@@ -1,36 +1,42 @@
 #include "sh.h"
 
-void			redirect_great(t_cmd *t)
+void			do_proc(int read, int fd, t_cmd *cmd)
 {
-	int			fd[2];
-	extern char	**environ;
+	pid_t		pid;
+	extern char **environ;
 
-	pipe(fd);
-	if (fork() == 0)
+	if ((pid = fork()) == 0)
 	{
-		close(fd[0]);
-		dup2(fd[1], 1);
-		close(fd[1]);
-		if (execve(t->arr[0], t->arr, environ) == -1)
+		if (read != 0 && cmd->prev->type == 2)
+		{
+			dup2(read, 0);
+			close(read);
+		}
+		if (fd != 1 && cmd->type == 2)
+		{
+			dup2(fd, 1);
+			close(fd);
+		}
+		if (execve(cmd->arr[0], cmd->arr, environ) == -1)
 			ft_putendl(" execve error");
 	}
-	if (fork() == 0)
-	{
-		close(fd[1]);
-		dup2(fd[0], 0);
-		close(fd[0]);
-		if (execve(t->next->arr[0], t->next->arr, environ) == -1)
-			ft_putendl(" execve error");
-	}
-	close(fd[0]);
-	close(fd[1]);
-	wait(NULL);
-	wait(NULL);
+	else
+		wait(&pid);
 }
 
-void			execute(t_cmd *t)
+void			execute(t_cmd *cmd)
 {
-	if (t->type)
-		redirect_great(t);
+	int			read;
+	int			fd[2];
+
+	read = 0;
+	while(cmd)
+	{
+		pipe(fd);
+		do_proc(read, fd[1], cmd);
+		close(fd[1]);
+		read = fd[0];
+		cmd = cmd->next;
+	}
 }
 
