@@ -21,6 +21,11 @@ CMakeFiles/shsh.dir/flag.c.o
  /Users/cassunta/Desktop/shsh/flag.c
  /Users/cassunta/Desktop/shsh/libft/libft.h
  /Users/cassunta/Desktop/shsh/sh.h
+CMakeFiles/shsh.dir/free.c.o
+ ../libft/libft.h
+ /Users/cassunta/Desktop/shsh/free.c
+ /Users/cassunta/Desktop/shsh/libft/libft.h
+ /Users/cassunta/Desktop/shsh/sh.h
 CMakeFiles/shsh.dir/get_cmd.c.o
  ../libft/libft.h
  /Users/cassunta/Desktop/shsh/get_cmd.c

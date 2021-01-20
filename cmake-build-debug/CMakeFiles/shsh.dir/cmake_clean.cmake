@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/shsh.dir/eject_redirect.c.o"
   "CMakeFiles/shsh.dir/execute.c.o"
   "CMakeFiles/shsh.dir/flag.c.o"
+  "CMakeFiles/shsh.dir/free.c.o"
   "CMakeFiles/shsh.dir/get_cmd.c.o"
   "CMakeFiles/shsh.dir/init.c.o"
   "CMakeFiles/shsh.dir/libft/ft_atoi.c.o"

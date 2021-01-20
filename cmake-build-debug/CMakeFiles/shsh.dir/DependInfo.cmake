@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/cassunta/Desktop/shsh/eject_redirect.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/eject_redirect.c.o"
   "/Users/cassunta/Desktop/shsh/execute.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/execute.c.o"
   "/Users/cassunta/Desktop/shsh/flag.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/flag.c.o"
+  "/Users/cassunta/Desktop/shsh/free.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/free.c.o"
   "/Users/cassunta/Desktop/shsh/get_cmd.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/get_cmd.c.o"
   "/Users/cassunta/Desktop/shsh/init.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/init.c.o"
   "/Users/cassunta/Desktop/shsh/libft/ft_atoi.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/libft/ft_atoi.c.o"

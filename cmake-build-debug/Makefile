@@ -251,6 +251,33 @@ flag.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/flag.c.s
 .PHONY : flag.c.s
 
+free.o: free.c.o
+
+.PHONY : free.o
+
+# target to build an object file
+free.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/free.c.o
+.PHONY : free.c.o
+
+free.i: free.c.i
+
+.PHONY : free.i
+
+# target to preprocess a source file
+free.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/free.c.i
+.PHONY : free.c.i
+
+free.s: free.c.s
+
+.PHONY : free.s
+
+# target to generate assembly for a file
+free.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/free.c.s
+.PHONY : free.c.s
+
 get_cmd.o: get_cmd.c.o
 
 .PHONY : get_cmd.o
@@ -2054,6 +2081,9 @@ help:
 	@echo "... flag.o"
 	@echo "... flag.i"
 	@echo "... flag.s"
+	@echo "... free.o"
+	@echo "... free.i"
+	@echo "... free.s"
 	@echo "... get_cmd.o"
 	@echo "... get_cmd.i"
 	@echo "... get_cmd.s"

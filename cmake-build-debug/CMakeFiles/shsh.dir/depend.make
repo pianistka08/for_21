@@ -21,6 +21,11 @@ CMakeFiles/shsh.dir/flag.c.o: ../flag.c
 CMakeFiles/shsh.dir/flag.c.o: ../libft/libft.h
 CMakeFiles/shsh.dir/flag.c.o: ../sh.h
 
+CMakeFiles/shsh.dir/free.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/free.c.o: ../free.c
+CMakeFiles/shsh.dir/free.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/free.c.o: ../sh.h
+
 CMakeFiles/shsh.dir/get_cmd.c.o: ../libft/libft.h
 CMakeFiles/shsh.dir/get_cmd.c.o: ../get_cmd.c
 CMakeFiles/shsh.dir/get_cmd.c.o: ../libft/libft.h

@@ -3,6 +3,7 @@
 char 			*if_vertical_bar(char *line, int *i, char *res, int j)
 {
 	char 		*ret;
+	char		*buf;
 
 	ret = NULL;
 	if (line[*i + 1] == '|')
@@ -12,6 +13,8 @@ char 			*if_vertical_bar(char *line, int *i, char *res, int j)
 	}
 	else
 		res[++j] = '\0';
-	ret = ft_strtrim(ft_strdup(res));
+	buf = ft_strdup(res);
+	ret = ft_strtrim(buf);
+	free(buf);
 	return (ret);
 }

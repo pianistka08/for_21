@@ -5,6 +5,7 @@ char 				*get_data(char *line, int *n, t_flag *flag)
 	char 			res[1000];
 	int 			j;
 	char			*ret;
+	char			*buf;
 
 	j = 0;
 	while (line[*n] != '\0')
@@ -26,7 +27,9 @@ char 				*get_data(char *line, int *n, t_flag *flag)
 			if (semantica(flag, line, n, &j) == 1 && j != 0)
 			{
 				res[j] = '\0';
-				ret = ft_strtrim(ft_strdup(res));
+				buf = ft_strdup(res);
+				ret = ft_strtrim(buf);
+				free(buf);
 				return (ret);
 			}
 			if (j == 0)
@@ -37,7 +40,9 @@ char 				*get_data(char *line, int *n, t_flag *flag)
 			}
 		}
 	}
-	ret = ft_strtrim(ft_strdup(res));
+	buf = ft_strdup(res);
+	ret = ft_strtrim(buf);
+	free(buf);
 	return (ret);
 }
 
@@ -71,12 +76,16 @@ int 			main(void)
 			token->data = get_data(line, &car, flag);
 		flag = reset_flag(flag);
 	}
+	free(flag);
+	free(line);
 	if (is_tokens_true(cur))
 	{
 		ft_putendl("true");
 		cmd = get_cmd(cur);
 		execute(cmd);
 	}
+	free_token(cur);
+	free_cmd(cmd);
 	//tree = get_tree(cur);
 	//cmd = get_cmd(cur);
 	//ft_putendl(line);

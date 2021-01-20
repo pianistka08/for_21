@@ -78,4 +78,5 @@ add_executable(shsh
         init.c
         get_cmd.c
         eject_redirect.c
-        execute.c)
+        execute.c
+        free.c)

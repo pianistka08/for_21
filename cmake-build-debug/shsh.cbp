@@ -94,6 +94,9 @@
 		<Unit filename="/Users/cassunta/Desktop/shsh/flag.c">
 			<Option target="shsh"/>
 		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/free.c">
+			<Option target="shsh"/>
+		</Unit>
 		<Unit filename="/Users/cassunta/Desktop/shsh/get_cmd.c">
 			<Option target="shsh"/>
 		</Unit>
