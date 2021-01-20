@@ -11,6 +11,11 @@ CMakeFiles/shsh.dir/eject_redirect.c.o
  /Users/cassunta/Desktop/shsh/eject_redirect.c
  /Users/cassunta/Desktop/shsh/libft/libft.h
  /Users/cassunta/Desktop/shsh/sh.h
+CMakeFiles/shsh.dir/env_list.c.o
+ ../libft/libft.h
+ /Users/cassunta/Desktop/shsh/env_list.c
+ /Users/cassunta/Desktop/shsh/libft/libft.h
+ /Users/cassunta/Desktop/shsh/sh.h
 CMakeFiles/shsh.dir/execute.c.o
  ../libft/libft.h
  /Users/cassunta/Desktop/shsh/execute.c

@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/shsh.dir/ampersand.c.o"
   "CMakeFiles/shsh.dir/eject_redirect.c.o"
+  "CMakeFiles/shsh.dir/env_list.c.o"
   "CMakeFiles/shsh.dir/execute.c.o"
   "CMakeFiles/shsh.dir/flag.c.o"
   "CMakeFiles/shsh.dir/free.c.o"

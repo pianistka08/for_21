@@ -18,6 +18,10 @@ unistd.h
 fcntl.h
 -
 
+/Users/cassunta/Desktop/shsh/execute.c
+sh.h
+/Users/cassunta/Desktop/shsh/sh.h
+
 /Users/cassunta/Desktop/shsh/libft/libft.h
 unistd.h
 -
@@ -29,10 +33,6 @@ unistd.h
 -
 fcntl.h
 -
-
-/Users/cassunta/Desktop/shsh/pipe.c
-sh.h
-/Users/cassunta/Desktop/shsh/sh.h
 
 /Users/cassunta/Desktop/shsh/sh.h
 stdlib.h

@@ -11,6 +11,11 @@ CMakeFiles/shsh.dir/eject_redirect.c.o: ../eject_redirect.c
 CMakeFiles/shsh.dir/eject_redirect.c.o: ../libft/libft.h
 CMakeFiles/shsh.dir/eject_redirect.c.o: ../sh.h
 
+CMakeFiles/shsh.dir/env_list.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/env_list.c.o: ../env_list.c
+CMakeFiles/shsh.dir/env_list.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/env_list.c.o: ../sh.h
+
 CMakeFiles/shsh.dir/execute.c.o: ../libft/libft.h
 CMakeFiles/shsh.dir/execute.c.o: ../execute.c
 CMakeFiles/shsh.dir/execute.c.o: ../libft/libft.h

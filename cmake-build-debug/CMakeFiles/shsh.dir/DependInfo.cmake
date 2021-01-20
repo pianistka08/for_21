@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/cassunta/Desktop/shsh/ampersand.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/ampersand.c.o"
   "/Users/cassunta/Desktop/shsh/eject_redirect.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/eject_redirect.c.o"
+  "/Users/cassunta/Desktop/shsh/env_list.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/env_list.c.o"
   "/Users/cassunta/Desktop/shsh/execute.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/execute.c.o"
   "/Users/cassunta/Desktop/shsh/flag.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/flag.c.o"
   "/Users/cassunta/Desktop/shsh/free.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/free.c.o"

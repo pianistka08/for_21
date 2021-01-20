@@ -79,4 +79,5 @@ add_executable(shsh
         get_cmd.c
         eject_redirect.c
         execute.c
-        free.c)
+        free.c
+        env_list.c)

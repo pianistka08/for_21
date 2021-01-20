@@ -20,8 +20,24 @@
 # define LESS "<"
 # define LLESS "<<"
 
+# define ECHO "echo"
+# define CD "cd"
+# define SETENV "setenv"
+# define UNSETENV "unsetenv"
+# define ENV "env"
+# define PWD "pwd"
+# define EXIT "exit"
+# define CLEAR "clear"
+
 extern char	**environ;
 
+typedef struct		s_list
+{
+	char			*name;
+	char			*val;
+
+	struct s_list	*next;
+}					t_list;
 
 typedef enum {
 	cmd = 1,
@@ -104,6 +120,6 @@ t_cmd			*get_data_with_redirect(char *s, t_cmd *cmd);
 char			*get_redirect(char *line, int *i, char *res, int j);
 void			free_token(t_token *t);
 void			free_cmd(t_cmd *cmd);
-
+t_list			*env_list(void);
 
 #endif
