@@ -121,5 +121,12 @@ char			*get_redirect(char *line, int *i, char *res, int j);
 void			free_token(t_token *t);
 void			free_cmd(t_cmd *cmd);
 t_list			*env_list(void);
+void				do_builtin(t_cmd *cmd);
+void			sh_env(int fd);
+void			sh_echo(t_cmd *cmd, int fd);
+t_list				*clear_list(t_list *env);
+void				sh_setenv(char **cmd, t_list *env);
+t_list				*sh_unset(char **nm, t_list *env);
+void			sh_cd(char **cmd, t_list *env);
 
 #endif

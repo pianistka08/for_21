@@ -6,6 +6,16 @@ CMakeFiles/shsh.dir/ampersand.c.o: ../ampersand.c
 CMakeFiles/shsh.dir/ampersand.c.o: ../libft/libft.h
 CMakeFiles/shsh.dir/ampersand.c.o: ../sh.h
 
+CMakeFiles/shsh.dir/builtin_fd.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/builtin_fd.c.o: ../builtin_fd.c
+CMakeFiles/shsh.dir/builtin_fd.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/builtin_fd.c.o: ../sh.h
+
+CMakeFiles/shsh.dir/cd.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/cd.c.o: ../cd.c
+CMakeFiles/shsh.dir/cd.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/cd.c.o: ../sh.h
+
 CMakeFiles/shsh.dir/eject_redirect.c.o: ../libft/libft.h
 CMakeFiles/shsh.dir/eject_redirect.c.o: ../eject_redirect.c
 CMakeFiles/shsh.dir/eject_redirect.c.o: ../libft/libft.h
@@ -15,6 +25,11 @@ CMakeFiles/shsh.dir/env_list.c.o: ../libft/libft.h
 CMakeFiles/shsh.dir/env_list.c.o: ../env_list.c
 CMakeFiles/shsh.dir/env_list.c.o: ../libft/libft.h
 CMakeFiles/shsh.dir/env_list.c.o: ../sh.h
+
+CMakeFiles/shsh.dir/environ.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/environ.c.o: ../environ.c
+CMakeFiles/shsh.dir/environ.c.o: ../libft/libft.h
+CMakeFiles/shsh.dir/environ.c.o: ../sh.h
 
 CMakeFiles/shsh.dir/execute.c.o: ../libft/libft.h
 CMakeFiles/shsh.dir/execute.c.o: ../execute.c

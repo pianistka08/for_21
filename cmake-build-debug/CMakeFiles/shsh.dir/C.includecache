@@ -18,7 +18,7 @@ unistd.h
 fcntl.h
 -
 
-/Users/cassunta/Desktop/shsh/execute.c
+/Users/cassunta/Desktop/shsh/builtin_fd.c
 sh.h
 /Users/cassunta/Desktop/shsh/sh.h
 

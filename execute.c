@@ -82,11 +82,7 @@ char			*it_path(char *s, t_list *env)
 			ft_strcat(buf, "/");
 			ft_strcat(buf, s);
 			if (access(buf, F_OK) != -1)
-			{
-				free(s);
-				//s = ft_strdup(way[i]);
 				break ;
-			}
 			i++;
 		}
 	}
@@ -97,21 +93,23 @@ char			*it_path(char *s, t_list *env)
 char				*get_path(char *s)
 {
 	t_list			*env;
+	char			*res;
 
 	env = env_list();
-	s = it_path(s, env);
+	res = it_path(s, env);
 	clear_list(env);
-	if (is_it_avalible(s))
+	if (is_it_avalible(res))
 	{
-		return (s);
+		return (res);
 	}
+	free(res);
 	return (NULL);
 }
 
 int					command(char *s)
 {
-	if ((ft_strcmp(s, PWD) == 0) || (ft_strcmp(s, ECHO) == 0) ||
-		(ft_strcmp(s, ENV) == 0) || (ft_strcmp(s, SETENV) == 0) ||
+	if (/*(ft_strcmp(s, ECHO) == 0) ||
+		(ft_strcmp(s, ENV) == 0) || */(ft_strcmp(s, SETENV) == 0) ||
 		(ft_strcmp(s, UNSETENV) == 0) || (ft_strcmp(s, CD) == 0) ||
 		(ft_strcmp(s, EXIT) == 0) || (ft_strcmp(s, CLEAR) == 0))
 		return (1);
@@ -119,14 +117,14 @@ int					command(char *s)
 		return (0);
 }
 
-void			do_proc(int read, int fd, t_cmd *cmd)
+void			do_proc(int read, int fd, char *path, t_cmd *cmd)
 {
 	pid_t		pid;
 	extern char **environ;
 
 	if ((pid = fork()) == 0)
 	{
-		if (read != 0 && cmd->prev->type == 2)
+		if (read != 0)
 		{
 			dup2(read, 0);
 			close(read);
@@ -136,33 +134,55 @@ void			do_proc(int read, int fd, t_cmd *cmd)
 			dup2(fd, 1);
 			close(fd);
 		}
-		if (execve(cmd->arr[0], cmd->arr, environ) == -1)
+		if (execve(path, cmd->arr, environ) == -1)
 			ft_putendl(" execve error");
 	}
 	else
 		wait(&pid);
+	free(cmd->target);
+}
+
+void			do_target(t_cmd *cmd)
+{
+	while (cmd)
+	{
+		if ((!command(cmd->arr[0]) && (int) cmd->arr[0] != '/') ||
+			(ft_strcmp(ENV, cmd->arr[0]) == 0 || ft_strcmp(ECHO, cmd->arr[0]) == 0))
+		{
+			cmd->target = get_path(cmd->arr[0]);
+			if (cmd->target == NULL)
+				return;
+		}
+		cmd = cmd->next;
+	}
 }
 
 void			execute(t_cmd *cmd)
 {
 	int			read;
 	int			fd[2];
+	pid_t		pid;
+	t_cmd 		*head;
 
+	head = cmd;
 	read = 0;
-	while(cmd)
+	do_target(cmd);
+	if ((pid = fork()) == 0)
 	{
-		pipe(fd);
-		if (!command(cmd->arr[0]) && (int) cmd->arr[0] != '/')
+		while (cmd)
 		{
-			//ft_putendl("dont know");
-			cmd->arr[0] = get_path(cmd->arr[0]);
-			if (cmd->arr[0] == NULL)
-				return ;
+			pipe(fd);
+			if (command(cmd->arr[0]) && cmd->type != 2)
+				do_builtin(cmd);
+			else
+				do_proc(read, fd[1], cmd->target, cmd);
+			close(fd[1]);
+			read = fd[0];
+			cmd = cmd->next;
 		}
-		do_proc(read, fd[1], cmd);
-		close(fd[1]);
-		read = fd[0];
-		cmd = cmd->next;
 	}
+	else
+		wait(&pid);
+	//free_cmd(head);
 }
 

@@ -80,4 +80,7 @@ add_executable(shsh
         eject_redirect.c
         execute.c
         free.c
-        env_list.c)
+        env_list.c
+        builtin_fd.c
+        environ.c
+        cd.c)

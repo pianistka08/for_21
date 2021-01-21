@@ -170,6 +170,60 @@ ampersand.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/ampersand.c.s
 .PHONY : ampersand.c.s
 
+builtin_fd.o: builtin_fd.c.o
+
+.PHONY : builtin_fd.o
+
+# target to build an object file
+builtin_fd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/builtin_fd.c.o
+.PHONY : builtin_fd.c.o
+
+builtin_fd.i: builtin_fd.c.i
+
+.PHONY : builtin_fd.i
+
+# target to preprocess a source file
+builtin_fd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/builtin_fd.c.i
+.PHONY : builtin_fd.c.i
+
+builtin_fd.s: builtin_fd.c.s
+
+.PHONY : builtin_fd.s
+
+# target to generate assembly for a file
+builtin_fd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/builtin_fd.c.s
+.PHONY : builtin_fd.c.s
+
+cd.o: cd.c.o
+
+.PHONY : cd.o
+
+# target to build an object file
+cd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/cd.c.o
+.PHONY : cd.c.o
+
+cd.i: cd.c.i
+
+.PHONY : cd.i
+
+# target to preprocess a source file
+cd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/cd.c.i
+.PHONY : cd.c.i
+
+cd.s: cd.c.s
+
+.PHONY : cd.s
+
+# target to generate assembly for a file
+cd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/cd.c.s
+.PHONY : cd.c.s
+
 eject_redirect.o: eject_redirect.c.o
 
 .PHONY : eject_redirect.o
@@ -223,6 +277,33 @@ env_list.s: env_list.c.s
 env_list.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/env_list.c.s
 .PHONY : env_list.c.s
+
+environ.o: environ.c.o
+
+.PHONY : environ.o
+
+# target to build an object file
+environ.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/environ.c.o
+.PHONY : environ.c.o
+
+environ.i: environ.c.i
+
+.PHONY : environ.i
+
+# target to preprocess a source file
+environ.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/environ.c.i
+.PHONY : environ.c.i
+
+environ.s: environ.c.s
+
+.PHONY : environ.s
+
+# target to generate assembly for a file
+environ.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/environ.c.s
+.PHONY : environ.c.s
 
 execute.o: execute.c.o
 
@@ -2099,12 +2180,21 @@ help:
 	@echo "... ampersand.o"
 	@echo "... ampersand.i"
 	@echo "... ampersand.s"
+	@echo "... builtin_fd.o"
+	@echo "... builtin_fd.i"
+	@echo "... builtin_fd.s"
+	@echo "... cd.o"
+	@echo "... cd.i"
+	@echo "... cd.s"
 	@echo "... eject_redirect.o"
 	@echo "... eject_redirect.i"
 	@echo "... eject_redirect.s"
 	@echo "... env_list.o"
 	@echo "... env_list.i"
 	@echo "... env_list.s"
+	@echo "... environ.o"
+	@echo "... environ.i"
+	@echo "... environ.s"
 	@echo "... execute.o"
 	@echo "... execute.i"
 	@echo "... execute.s"

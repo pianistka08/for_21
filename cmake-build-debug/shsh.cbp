@@ -85,10 +85,19 @@
 		<Unit filename="/Users/cassunta/Desktop/shsh/ampersand.c">
 			<Option target="shsh"/>
 		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/builtin_fd.c">
+			<Option target="shsh"/>
+		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/cd.c">
+			<Option target="shsh"/>
+		</Unit>
 		<Unit filename="/Users/cassunta/Desktop/shsh/eject_redirect.c">
 			<Option target="shsh"/>
 		</Unit>
 		<Unit filename="/Users/cassunta/Desktop/shsh/env_list.c">
+			<Option target="shsh"/>
+		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/environ.c">
 			<Option target="shsh"/>
 		</Unit>
 		<Unit filename="/Users/cassunta/Desktop/shsh/execute.c">

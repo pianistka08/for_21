@@ -18,12 +18,12 @@ void			free_cmd(t_cmd *cmd)
 {
 	t_cmd		*cur;
 
-	cur = cmd;
 	while (cmd)
 	{
 		cur = cmd;
 		cmd = cmd->next;
-		ft_strsplit_free(&cur->arr);
+		if (cur->arr)
+			ft_strsplit_free(&cur->arr);
 		if (cur->target != NULL)
 			free(cur->target);
 		free(cur);

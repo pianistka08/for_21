@@ -67,7 +67,7 @@ int 				is_tokens_true(t_token *t)
 	tmp = t;
 	while (t)
 	{
-		if (ft_strcmp(t->data, BK) == 0 ||
+		if (ft_strcmp(t->data, BK) == 0 || ft_strcmp(t->data, SC) == 0 ||
 				ft_strcmp(t->data, OR) == 0 ||
 				ft_strcmp(t->data, AND) == 0 ||
 				ft_strcmp(t->data, PIPE) == 0 ||
@@ -76,12 +76,12 @@ int 				is_tokens_true(t_token *t)
 				ft_strcmp(t->data, LESS) == 0 ||
 				ft_strcmp(t->data, LLESS) == 0 )
 		{
-			t->type = cmd;
+			t->type = 1;
 			t->c_type = get_cmd_type(t->data);
 			t->priority = get_priority(t->data);
 		}
 		else
-			t->type = ext;
+			t->type = 0;
 		t = t->next;
 	}
 	if (right_row(tmp))

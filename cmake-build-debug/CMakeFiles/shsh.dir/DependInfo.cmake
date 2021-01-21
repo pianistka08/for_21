@@ -5,8 +5,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/cassunta/Desktop/shsh/ampersand.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/ampersand.c.o"
+  "/Users/cassunta/Desktop/shsh/builtin_fd.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/builtin_fd.c.o"
+  "/Users/cassunta/Desktop/shsh/cd.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/cd.c.o"
   "/Users/cassunta/Desktop/shsh/eject_redirect.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/eject_redirect.c.o"
   "/Users/cassunta/Desktop/shsh/env_list.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/env_list.c.o"
+  "/Users/cassunta/Desktop/shsh/environ.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/environ.c.o"
   "/Users/cassunta/Desktop/shsh/execute.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/execute.c.o"
   "/Users/cassunta/Desktop/shsh/flag.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/flag.c.o"
   "/Users/cassunta/Desktop/shsh/free.c" "/Users/cassunta/Desktop/shsh/cmake-build-debug/CMakeFiles/shsh.dir/free.c.o"

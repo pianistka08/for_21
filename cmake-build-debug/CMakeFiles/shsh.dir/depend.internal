@@ -6,6 +6,16 @@ CMakeFiles/shsh.dir/ampersand.c.o
  /Users/cassunta/Desktop/shsh/ampersand.c
  /Users/cassunta/Desktop/shsh/libft/libft.h
  /Users/cassunta/Desktop/shsh/sh.h
+CMakeFiles/shsh.dir/builtin_fd.c.o
+ ../libft/libft.h
+ /Users/cassunta/Desktop/shsh/builtin_fd.c
+ /Users/cassunta/Desktop/shsh/libft/libft.h
+ /Users/cassunta/Desktop/shsh/sh.h
+CMakeFiles/shsh.dir/cd.c.o
+ ../libft/libft.h
+ /Users/cassunta/Desktop/shsh/cd.c
+ /Users/cassunta/Desktop/shsh/libft/libft.h
+ /Users/cassunta/Desktop/shsh/sh.h
 CMakeFiles/shsh.dir/eject_redirect.c.o
  ../libft/libft.h
  /Users/cassunta/Desktop/shsh/eject_redirect.c
@@ -14,6 +24,11 @@ CMakeFiles/shsh.dir/eject_redirect.c.o
 CMakeFiles/shsh.dir/env_list.c.o
  ../libft/libft.h
  /Users/cassunta/Desktop/shsh/env_list.c
+ /Users/cassunta/Desktop/shsh/libft/libft.h
+ /Users/cassunta/Desktop/shsh/sh.h
+CMakeFiles/shsh.dir/environ.c.o
+ ../libft/libft.h
+ /Users/cassunta/Desktop/shsh/environ.c
  /Users/cassunta/Desktop/shsh/libft/libft.h
  /Users/cassunta/Desktop/shsh/sh.h
 CMakeFiles/shsh.dir/execute.c.o

@@ -46,13 +46,6 @@ char 				*get_data(char *line, int *n, t_flag *flag)
 	return (ret);
 }
 
-int				free_all(t_token *t, t_cmd *cmd)
-{
-	free_token(t);
-	free_cmd(cmd);
-	return (1);
-}
-
 int 			main(void) {
 	t_token *token;
 	char *line;
@@ -62,44 +55,36 @@ int 			main(void) {
 	//t_tree		*tree;
 	t_token *cur;
 	t_cmd *cmd;
-	int j;
-	j = 1;
+
 
 	line = NULL;
 	car = 0;
-//	while (j == 1)
-//	{
-		line = NULL;
-		car = 0;
-		get_next_line(0, &line);
-		l = ft_strlen(line);
-		line[l] = '\0';
-		token = init_token();
-		cur = token;
-		flag = init_flag();
+	line = NULL;
+	car = 0;
+	get_next_line(0, &line);
+	l = ft_strlen(line);
+	line[l] = '\0';
+	token = init_token();
+	cur = token;
+	flag = init_flag();
+	token->data = get_data(line, &car, flag);
+	while (car < l)
+	{
+		token->next = init_token();
+		token->next->prev = token;
+		token = token->next;
 		token->data = get_data(line, &car, flag);
-		while (car < l)
-		{
-			token->next = init_token();
-			token->next->prev = token;
-			token = token->next;
+		if (ft_strcmp(token->data, "") == 0)
 			token->data = get_data(line, &car, flag);
-			if (ft_strcmp(token->data, "") == 0)
-				token->data = get_data(line, &car, flag);
-			flag = reset_flag(flag);
-		}
-		free(flag);
-		free(line);
-		if (is_tokens_true(cur))
-		{
-			ft_putendl("true");
-			cmd = get_cmd(cur);
-			execute(cmd);
-		}
-		j = free_all(cur, cmd);
-//}
-	//tree = get_tree(cur);
-	//cmd = get_cmd(cur);
-	//ft_putendl(line);
+		flag = reset_flag(flag);
+	}
+	free(flag);
+	free(line);
+	if (is_tokens_true(cur))
+	{
+		cmd = get_cmd(cur);
+		execute(cmd);
+	}
+	free_token(cur);
 	return (0);
 }
