@@ -11,7 +11,7 @@ char 				*get_data(char *line, int *n, t_flag *flag)
 	while (line[*n] != '\0')
 	{
 		while (line[*n] != '|' && line[*n] != ';' && line[*n] != '&' && line[*n] != '>' &&
-			   line[*n] != '<' && line[*n] != '\0')
+			   line[*n] != '<'  && line[*n] != '\0')
 		{
 			update_flag(flag, line[*n]);
 			res[j] = line[*n];
@@ -46,24 +46,18 @@ char 				*get_data(char *line, int *n, t_flag *flag)
 	return (ret);
 }
 
-int 			main(void) {
+t_token 			*parsing_t(char *line)
+{
 	t_token *token;
-	char *line;
 	int car;
 	t_flag *flag;
 	int l;
-	//t_tree		*tree;
 	t_token *cur;
 	t_cmd *cmd;
 
 
-	line = NULL;
 	car = 0;
-	line = NULL;
-	car = 0;
-	get_next_line(0, &line);
 	l = ft_strlen(line);
-	line[l] = '\0';
 	token = init_token();
 	cur = token;
 	flag = init_flag();
@@ -79,12 +73,13 @@ int 			main(void) {
 		flag = reset_flag(flag);
 	}
 	free(flag);
-	free(line);
-	if (is_tokens_true(cur))
+	//free(line);
+	/*if (is_tokens_true(cur))
 	{
 		cmd = get_cmd(cur);
 		execute(cmd);
 	}
-	free_token(cur);
-	return (0);
+	free_token(cur);*/
+	return (cur); /// интовая функция, возвращающая значение. специальное значение для exit.
 }
+

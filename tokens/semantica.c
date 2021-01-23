@@ -30,22 +30,15 @@ char 				*get_semantica_ret(char *line, int *i, char *res, int j)
 
 int 				semantica(t_flag *flag, char *line, int *i, int *j)
 {
+	/*if (line[*i] == '$' && line[*i - 1] != 92 && flag->u_quot % 2 == 0)
+		return (2);*/
 	if (((flag->d_quot > 0) && (flag->d_quot % 2 != 0)) || ((flag->u_quot > 0)
-	&& (flag->u_quot % 2 != 0)) || /// если открыты кавычки или есть бек-слэш
-		(line[*i - 1] && line[*i - 1] == 92))
+	&& (flag->u_quot % 2 != 0)) ||
+		(line[*i - 1] && line[*i - 1] == 92)) /// если открыты кавычки или есть бек-слэш
 	{
 		*i += 1;
 		*j += 1;
 		return (0);
-	}
-	if (line[*i] == '&' && line[*i] != line[*i + 1])
-	{
-		if ((line[*i - 1] && (line[*i - 1] == '<' || line[*i - 1] == '>')))
-		{
-			*i += 1;
-			*j += 1;
-			return (0);
-		}
 	}
 	if (*j != 0 || ((flag->d_quot % 2 != 0) || (flag->u_quot % 2 != 0) || /// если открыты кавычки или есть бек-слэш
 		(line[*i - 1] && line[*i - 1] != 92)))

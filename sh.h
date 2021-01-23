@@ -128,5 +128,6 @@ t_list				*clear_list(t_list *env);
 void				sh_setenv(char **cmd, t_list *env);
 t_list				*sh_unset(char **nm, t_list *env);
 void			sh_cd(char **cmd, t_list *env);
+t_token 			*parsing_t(char *line);
 
 #endif

@@ -136,6 +136,7 @@ void			do_proc(int read, int fd, char *path, t_cmd *cmd)
 		}
 		if (execve(path, cmd->arr, environ) == -1)
 			ft_putendl(" execve error");
+		//// как-то завернуть процесс на выход
 	}
 	else
 		wait(&pid);

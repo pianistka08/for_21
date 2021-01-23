@@ -66,21 +66,22 @@ add_executable(shsh
         libft/ft_wordcount.c
         libft/get_next_line.c
         libft/libft.h
-        ampersand.c
-        flag.c
-        parse_tokens.c
-        pipe.c
-        semantica.c
+        tokens/ampersand.c
+        tokens/flag.c
+        tokens/parse_tokens.c
+        tokens/pipe.c
+        tokens/semantica.c
         sh.h
-        token.c
-        tree.c
-        tree_ft.c
-        init.c
-        get_cmd.c
-        eject_redirect.c
-        execute.c
-        free.c
-        env_list.c
-        builtin_fd.c
-        environ.c
-        cd.c)
+        tokens/token.c
+        tree/tree.c
+        tree/tree_ft.c
+        utils/init.c
+        cmd/get_cmd.c
+        tokens/eject_redirect.c
+        exec/execute.c
+        utils/free.c
+        builtin/env_list.c
+        exec/builtin_fd.c
+        builtin/environ.c
+        builtin/cd.c
+        main.c)

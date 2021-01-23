@@ -143,302 +143,167 @@ shsh/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/build
 .PHONY : shsh/fast
 
-ampersand.o: ampersand.c.o
+builtin/cd.o: builtin/cd.c.o
 
-.PHONY : ampersand.o
-
-# target to build an object file
-ampersand.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/ampersand.c.o
-.PHONY : ampersand.c.o
-
-ampersand.i: ampersand.c.i
-
-.PHONY : ampersand.i
-
-# target to preprocess a source file
-ampersand.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/ampersand.c.i
-.PHONY : ampersand.c.i
-
-ampersand.s: ampersand.c.s
-
-.PHONY : ampersand.s
-
-# target to generate assembly for a file
-ampersand.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/ampersand.c.s
-.PHONY : ampersand.c.s
-
-builtin_fd.o: builtin_fd.c.o
-
-.PHONY : builtin_fd.o
+.PHONY : builtin/cd.o
 
 # target to build an object file
-builtin_fd.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/builtin_fd.c.o
-.PHONY : builtin_fd.c.o
+builtin/cd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/builtin/cd.c.o
+.PHONY : builtin/cd.c.o
 
-builtin_fd.i: builtin_fd.c.i
+builtin/cd.i: builtin/cd.c.i
 
-.PHONY : builtin_fd.i
+.PHONY : builtin/cd.i
 
 # target to preprocess a source file
-builtin_fd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/builtin_fd.c.i
-.PHONY : builtin_fd.c.i
+builtin/cd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/builtin/cd.c.i
+.PHONY : builtin/cd.c.i
 
-builtin_fd.s: builtin_fd.c.s
+builtin/cd.s: builtin/cd.c.s
 
-.PHONY : builtin_fd.s
+.PHONY : builtin/cd.s
 
 # target to generate assembly for a file
-builtin_fd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/builtin_fd.c.s
-.PHONY : builtin_fd.c.s
+builtin/cd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/builtin/cd.c.s
+.PHONY : builtin/cd.c.s
 
-cd.o: cd.c.o
+builtin/env_list.o: builtin/env_list.c.o
 
-.PHONY : cd.o
+.PHONY : builtin/env_list.o
 
 # target to build an object file
-cd.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/cd.c.o
-.PHONY : cd.c.o
+builtin/env_list.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/builtin/env_list.c.o
+.PHONY : builtin/env_list.c.o
 
-cd.i: cd.c.i
+builtin/env_list.i: builtin/env_list.c.i
 
-.PHONY : cd.i
+.PHONY : builtin/env_list.i
 
 # target to preprocess a source file
-cd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/cd.c.i
-.PHONY : cd.c.i
+builtin/env_list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/builtin/env_list.c.i
+.PHONY : builtin/env_list.c.i
 
-cd.s: cd.c.s
+builtin/env_list.s: builtin/env_list.c.s
 
-.PHONY : cd.s
+.PHONY : builtin/env_list.s
 
 # target to generate assembly for a file
-cd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/cd.c.s
-.PHONY : cd.c.s
+builtin/env_list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/builtin/env_list.c.s
+.PHONY : builtin/env_list.c.s
 
-eject_redirect.o: eject_redirect.c.o
+builtin/environ.o: builtin/environ.c.o
 
-.PHONY : eject_redirect.o
+.PHONY : builtin/environ.o
 
 # target to build an object file
-eject_redirect.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/eject_redirect.c.o
-.PHONY : eject_redirect.c.o
+builtin/environ.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/builtin/environ.c.o
+.PHONY : builtin/environ.c.o
 
-eject_redirect.i: eject_redirect.c.i
+builtin/environ.i: builtin/environ.c.i
 
-.PHONY : eject_redirect.i
+.PHONY : builtin/environ.i
 
 # target to preprocess a source file
-eject_redirect.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/eject_redirect.c.i
-.PHONY : eject_redirect.c.i
+builtin/environ.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/builtin/environ.c.i
+.PHONY : builtin/environ.c.i
 
-eject_redirect.s: eject_redirect.c.s
+builtin/environ.s: builtin/environ.c.s
 
-.PHONY : eject_redirect.s
+.PHONY : builtin/environ.s
 
 # target to generate assembly for a file
-eject_redirect.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/eject_redirect.c.s
-.PHONY : eject_redirect.c.s
+builtin/environ.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/builtin/environ.c.s
+.PHONY : builtin/environ.c.s
 
-env_list.o: env_list.c.o
+cmd/get_cmd.o: cmd/get_cmd.c.o
 
-.PHONY : env_list.o
+.PHONY : cmd/get_cmd.o
 
 # target to build an object file
-env_list.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/env_list.c.o
-.PHONY : env_list.c.o
+cmd/get_cmd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/cmd/get_cmd.c.o
+.PHONY : cmd/get_cmd.c.o
 
-env_list.i: env_list.c.i
+cmd/get_cmd.i: cmd/get_cmd.c.i
 
-.PHONY : env_list.i
+.PHONY : cmd/get_cmd.i
 
 # target to preprocess a source file
-env_list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/env_list.c.i
-.PHONY : env_list.c.i
+cmd/get_cmd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/cmd/get_cmd.c.i
+.PHONY : cmd/get_cmd.c.i
 
-env_list.s: env_list.c.s
+cmd/get_cmd.s: cmd/get_cmd.c.s
 
-.PHONY : env_list.s
+.PHONY : cmd/get_cmd.s
 
 # target to generate assembly for a file
-env_list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/env_list.c.s
-.PHONY : env_list.c.s
+cmd/get_cmd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/cmd/get_cmd.c.s
+.PHONY : cmd/get_cmd.c.s
 
-environ.o: environ.c.o
+exec/builtin_fd.o: exec/builtin_fd.c.o
 
-.PHONY : environ.o
+.PHONY : exec/builtin_fd.o
 
 # target to build an object file
-environ.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/environ.c.o
-.PHONY : environ.c.o
+exec/builtin_fd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/exec/builtin_fd.c.o
+.PHONY : exec/builtin_fd.c.o
 
-environ.i: environ.c.i
+exec/builtin_fd.i: exec/builtin_fd.c.i
 
-.PHONY : environ.i
+.PHONY : exec/builtin_fd.i
 
 # target to preprocess a source file
-environ.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/environ.c.i
-.PHONY : environ.c.i
+exec/builtin_fd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/exec/builtin_fd.c.i
+.PHONY : exec/builtin_fd.c.i
 
-environ.s: environ.c.s
+exec/builtin_fd.s: exec/builtin_fd.c.s
 
-.PHONY : environ.s
+.PHONY : exec/builtin_fd.s
 
 # target to generate assembly for a file
-environ.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/environ.c.s
-.PHONY : environ.c.s
+exec/builtin_fd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/exec/builtin_fd.c.s
+.PHONY : exec/builtin_fd.c.s
 
-execute.o: execute.c.o
+exec/execute.o: exec/execute.c.o
 
-.PHONY : execute.o
+.PHONY : exec/execute.o
 
 # target to build an object file
-execute.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/execute.c.o
-.PHONY : execute.c.o
+exec/execute.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/exec/execute.c.o
+.PHONY : exec/execute.c.o
 
-execute.i: execute.c.i
+exec/execute.i: exec/execute.c.i
 
-.PHONY : execute.i
-
-# target to preprocess a source file
-execute.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/execute.c.i
-.PHONY : execute.c.i
-
-execute.s: execute.c.s
-
-.PHONY : execute.s
-
-# target to generate assembly for a file
-execute.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/execute.c.s
-.PHONY : execute.c.s
-
-flag.o: flag.c.o
-
-.PHONY : flag.o
-
-# target to build an object file
-flag.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/flag.c.o
-.PHONY : flag.c.o
-
-flag.i: flag.c.i
-
-.PHONY : flag.i
+.PHONY : exec/execute.i
 
 # target to preprocess a source file
-flag.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/flag.c.i
-.PHONY : flag.c.i
+exec/execute.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/exec/execute.c.i
+.PHONY : exec/execute.c.i
 
-flag.s: flag.c.s
+exec/execute.s: exec/execute.c.s
 
-.PHONY : flag.s
-
-# target to generate assembly for a file
-flag.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/flag.c.s
-.PHONY : flag.c.s
-
-free.o: free.c.o
-
-.PHONY : free.o
-
-# target to build an object file
-free.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/free.c.o
-.PHONY : free.c.o
-
-free.i: free.c.i
-
-.PHONY : free.i
-
-# target to preprocess a source file
-free.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/free.c.i
-.PHONY : free.c.i
-
-free.s: free.c.s
-
-.PHONY : free.s
+.PHONY : exec/execute.s
 
 # target to generate assembly for a file
-free.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/free.c.s
-.PHONY : free.c.s
-
-get_cmd.o: get_cmd.c.o
-
-.PHONY : get_cmd.o
-
-# target to build an object file
-get_cmd.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/get_cmd.c.o
-.PHONY : get_cmd.c.o
-
-get_cmd.i: get_cmd.c.i
-
-.PHONY : get_cmd.i
-
-# target to preprocess a source file
-get_cmd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/get_cmd.c.i
-.PHONY : get_cmd.c.i
-
-get_cmd.s: get_cmd.c.s
-
-.PHONY : get_cmd.s
-
-# target to generate assembly for a file
-get_cmd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/get_cmd.c.s
-.PHONY : get_cmd.c.s
-
-init.o: init.c.o
-
-.PHONY : init.o
-
-# target to build an object file
-init.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/init.c.o
-.PHONY : init.c.o
-
-init.i: init.c.i
-
-.PHONY : init.i
-
-# target to preprocess a source file
-init.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/init.c.i
-.PHONY : init.c.i
-
-init.s: init.c.s
-
-.PHONY : init.s
-
-# target to generate assembly for a file
-init.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/init.c.s
-.PHONY : init.c.s
+exec/execute.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/exec/execute.c.s
+.PHONY : exec/execute.c.s
 
 libft/ft_atoi.o: libft/ft_atoi.c.o
 
@@ -2006,167 +1871,329 @@ libft/get_next_line.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/libft/get_next_line.c.s
 .PHONY : libft/get_next_line.c.s
 
-parse_tokens.o: parse_tokens.c.o
+main.o: main.c.o
 
-.PHONY : parse_tokens.o
-
-# target to build an object file
-parse_tokens.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/parse_tokens.c.o
-.PHONY : parse_tokens.c.o
-
-parse_tokens.i: parse_tokens.c.i
-
-.PHONY : parse_tokens.i
-
-# target to preprocess a source file
-parse_tokens.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/parse_tokens.c.i
-.PHONY : parse_tokens.c.i
-
-parse_tokens.s: parse_tokens.c.s
-
-.PHONY : parse_tokens.s
-
-# target to generate assembly for a file
-parse_tokens.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/parse_tokens.c.s
-.PHONY : parse_tokens.c.s
-
-pipe.o: pipe.c.o
-
-.PHONY : pipe.o
+.PHONY : main.o
 
 # target to build an object file
-pipe.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/pipe.c.o
-.PHONY : pipe.c.o
+main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/main.c.o
+.PHONY : main.c.o
 
-pipe.i: pipe.c.i
+main.i: main.c.i
 
-.PHONY : pipe.i
+.PHONY : main.i
 
 # target to preprocess a source file
-pipe.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/pipe.c.i
-.PHONY : pipe.c.i
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/main.c.i
+.PHONY : main.c.i
 
-pipe.s: pipe.c.s
+main.s: main.c.s
 
-.PHONY : pipe.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-pipe.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/pipe.c.s
-.PHONY : pipe.c.s
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/main.c.s
+.PHONY : main.c.s
 
-semantica.o: semantica.c.o
+tokens/ampersand.o: tokens/ampersand.c.o
 
-.PHONY : semantica.o
+.PHONY : tokens/ampersand.o
 
 # target to build an object file
-semantica.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/semantica.c.o
-.PHONY : semantica.c.o
+tokens/ampersand.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tokens/ampersand.c.o
+.PHONY : tokens/ampersand.c.o
 
-semantica.i: semantica.c.i
+tokens/ampersand.i: tokens/ampersand.c.i
 
-.PHONY : semantica.i
+.PHONY : tokens/ampersand.i
 
 # target to preprocess a source file
-semantica.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/semantica.c.i
-.PHONY : semantica.c.i
+tokens/ampersand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tokens/ampersand.c.i
+.PHONY : tokens/ampersand.c.i
 
-semantica.s: semantica.c.s
+tokens/ampersand.s: tokens/ampersand.c.s
 
-.PHONY : semantica.s
+.PHONY : tokens/ampersand.s
 
 # target to generate assembly for a file
-semantica.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/semantica.c.s
-.PHONY : semantica.c.s
+tokens/ampersand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tokens/ampersand.c.s
+.PHONY : tokens/ampersand.c.s
 
-token.o: token.c.o
+tokens/eject_redirect.o: tokens/eject_redirect.c.o
 
-.PHONY : token.o
+.PHONY : tokens/eject_redirect.o
 
 # target to build an object file
-token.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/token.c.o
-.PHONY : token.c.o
+tokens/eject_redirect.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tokens/eject_redirect.c.o
+.PHONY : tokens/eject_redirect.c.o
 
-token.i: token.c.i
+tokens/eject_redirect.i: tokens/eject_redirect.c.i
 
-.PHONY : token.i
+.PHONY : tokens/eject_redirect.i
 
 # target to preprocess a source file
-token.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/token.c.i
-.PHONY : token.c.i
+tokens/eject_redirect.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tokens/eject_redirect.c.i
+.PHONY : tokens/eject_redirect.c.i
 
-token.s: token.c.s
+tokens/eject_redirect.s: tokens/eject_redirect.c.s
 
-.PHONY : token.s
+.PHONY : tokens/eject_redirect.s
 
 # target to generate assembly for a file
-token.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/token.c.s
-.PHONY : token.c.s
+tokens/eject_redirect.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tokens/eject_redirect.c.s
+.PHONY : tokens/eject_redirect.c.s
 
-tree.o: tree.c.o
+tokens/flag.o: tokens/flag.c.o
 
-.PHONY : tree.o
+.PHONY : tokens/flag.o
 
 # target to build an object file
-tree.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tree.c.o
-.PHONY : tree.c.o
+tokens/flag.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tokens/flag.c.o
+.PHONY : tokens/flag.c.o
 
-tree.i: tree.c.i
+tokens/flag.i: tokens/flag.c.i
 
-.PHONY : tree.i
+.PHONY : tokens/flag.i
 
 # target to preprocess a source file
-tree.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tree.c.i
-.PHONY : tree.c.i
+tokens/flag.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tokens/flag.c.i
+.PHONY : tokens/flag.c.i
 
-tree.s: tree.c.s
+tokens/flag.s: tokens/flag.c.s
 
-.PHONY : tree.s
+.PHONY : tokens/flag.s
 
 # target to generate assembly for a file
-tree.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tree.c.s
-.PHONY : tree.c.s
+tokens/flag.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tokens/flag.c.s
+.PHONY : tokens/flag.c.s
 
-tree_ft.o: tree_ft.c.o
+tokens/parse_tokens.o: tokens/parse_tokens.c.o
 
-.PHONY : tree_ft.o
+.PHONY : tokens/parse_tokens.o
 
 # target to build an object file
-tree_ft.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tree_ft.c.o
-.PHONY : tree_ft.c.o
+tokens/parse_tokens.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tokens/parse_tokens.c.o
+.PHONY : tokens/parse_tokens.c.o
 
-tree_ft.i: tree_ft.c.i
+tokens/parse_tokens.i: tokens/parse_tokens.c.i
 
-.PHONY : tree_ft.i
+.PHONY : tokens/parse_tokens.i
 
 # target to preprocess a source file
-tree_ft.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tree_ft.c.i
-.PHONY : tree_ft.c.i
+tokens/parse_tokens.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tokens/parse_tokens.c.i
+.PHONY : tokens/parse_tokens.c.i
 
-tree_ft.s: tree_ft.c.s
+tokens/parse_tokens.s: tokens/parse_tokens.c.s
 
-.PHONY : tree_ft.s
+.PHONY : tokens/parse_tokens.s
 
 # target to generate assembly for a file
-tree_ft.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tree_ft.c.s
-.PHONY : tree_ft.c.s
+tokens/parse_tokens.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tokens/parse_tokens.c.s
+.PHONY : tokens/parse_tokens.c.s
+
+tokens/pipe.o: tokens/pipe.c.o
+
+.PHONY : tokens/pipe.o
+
+# target to build an object file
+tokens/pipe.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tokens/pipe.c.o
+.PHONY : tokens/pipe.c.o
+
+tokens/pipe.i: tokens/pipe.c.i
+
+.PHONY : tokens/pipe.i
+
+# target to preprocess a source file
+tokens/pipe.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tokens/pipe.c.i
+.PHONY : tokens/pipe.c.i
+
+tokens/pipe.s: tokens/pipe.c.s
+
+.PHONY : tokens/pipe.s
+
+# target to generate assembly for a file
+tokens/pipe.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tokens/pipe.c.s
+.PHONY : tokens/pipe.c.s
+
+tokens/semantica.o: tokens/semantica.c.o
+
+.PHONY : tokens/semantica.o
+
+# target to build an object file
+tokens/semantica.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tokens/semantica.c.o
+.PHONY : tokens/semantica.c.o
+
+tokens/semantica.i: tokens/semantica.c.i
+
+.PHONY : tokens/semantica.i
+
+# target to preprocess a source file
+tokens/semantica.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tokens/semantica.c.i
+.PHONY : tokens/semantica.c.i
+
+tokens/semantica.s: tokens/semantica.c.s
+
+.PHONY : tokens/semantica.s
+
+# target to generate assembly for a file
+tokens/semantica.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tokens/semantica.c.s
+.PHONY : tokens/semantica.c.s
+
+tokens/token.o: tokens/token.c.o
+
+.PHONY : tokens/token.o
+
+# target to build an object file
+tokens/token.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tokens/token.c.o
+.PHONY : tokens/token.c.o
+
+tokens/token.i: tokens/token.c.i
+
+.PHONY : tokens/token.i
+
+# target to preprocess a source file
+tokens/token.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tokens/token.c.i
+.PHONY : tokens/token.c.i
+
+tokens/token.s: tokens/token.c.s
+
+.PHONY : tokens/token.s
+
+# target to generate assembly for a file
+tokens/token.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tokens/token.c.s
+.PHONY : tokens/token.c.s
+
+tree/tree.o: tree/tree.c.o
+
+.PHONY : tree/tree.o
+
+# target to build an object file
+tree/tree.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tree/tree.c.o
+.PHONY : tree/tree.c.o
+
+tree/tree.i: tree/tree.c.i
+
+.PHONY : tree/tree.i
+
+# target to preprocess a source file
+tree/tree.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tree/tree.c.i
+.PHONY : tree/tree.c.i
+
+tree/tree.s: tree/tree.c.s
+
+.PHONY : tree/tree.s
+
+# target to generate assembly for a file
+tree/tree.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tree/tree.c.s
+.PHONY : tree/tree.c.s
+
+tree/tree_ft.o: tree/tree_ft.c.o
+
+.PHONY : tree/tree_ft.o
+
+# target to build an object file
+tree/tree_ft.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tree/tree_ft.c.o
+.PHONY : tree/tree_ft.c.o
+
+tree/tree_ft.i: tree/tree_ft.c.i
+
+.PHONY : tree/tree_ft.i
+
+# target to preprocess a source file
+tree/tree_ft.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tree/tree_ft.c.i
+.PHONY : tree/tree_ft.c.i
+
+tree/tree_ft.s: tree/tree_ft.c.s
+
+.PHONY : tree/tree_ft.s
+
+# target to generate assembly for a file
+tree/tree_ft.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/tree/tree_ft.c.s
+.PHONY : tree/tree_ft.c.s
+
+utils/free.o: utils/free.c.o
+
+.PHONY : utils/free.o
+
+# target to build an object file
+utils/free.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/utils/free.c.o
+.PHONY : utils/free.c.o
+
+utils/free.i: utils/free.c.i
+
+.PHONY : utils/free.i
+
+# target to preprocess a source file
+utils/free.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/utils/free.c.i
+.PHONY : utils/free.c.i
+
+utils/free.s: utils/free.c.s
+
+.PHONY : utils/free.s
+
+# target to generate assembly for a file
+utils/free.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/utils/free.c.s
+.PHONY : utils/free.c.s
+
+utils/init.o: utils/init.c.o
+
+.PHONY : utils/init.o
+
+# target to build an object file
+utils/init.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/utils/init.c.o
+.PHONY : utils/init.c.o
+
+utils/init.i: utils/init.c.i
+
+.PHONY : utils/init.i
+
+# target to preprocess a source file
+utils/init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/utils/init.c.i
+.PHONY : utils/init.c.i
+
+utils/init.s: utils/init.c.s
+
+.PHONY : utils/init.s
+
+# target to generate assembly for a file
+utils/init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shsh.dir/build.make CMakeFiles/shsh.dir/utils/init.c.s
+.PHONY : utils/init.c.s
 
 # Help Target
 help:
@@ -2177,39 +2204,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... shsh"
-	@echo "... ampersand.o"
-	@echo "... ampersand.i"
-	@echo "... ampersand.s"
-	@echo "... builtin_fd.o"
-	@echo "... builtin_fd.i"
-	@echo "... builtin_fd.s"
-	@echo "... cd.o"
-	@echo "... cd.i"
-	@echo "... cd.s"
-	@echo "... eject_redirect.o"
-	@echo "... eject_redirect.i"
-	@echo "... eject_redirect.s"
-	@echo "... env_list.o"
-	@echo "... env_list.i"
-	@echo "... env_list.s"
-	@echo "... environ.o"
-	@echo "... environ.i"
-	@echo "... environ.s"
-	@echo "... execute.o"
-	@echo "... execute.i"
-	@echo "... execute.s"
-	@echo "... flag.o"
-	@echo "... flag.i"
-	@echo "... flag.s"
-	@echo "... free.o"
-	@echo "... free.i"
-	@echo "... free.s"
-	@echo "... get_cmd.o"
-	@echo "... get_cmd.i"
-	@echo "... get_cmd.s"
-	@echo "... init.o"
-	@echo "... init.i"
-	@echo "... init.s"
+	@echo "... builtin/cd.o"
+	@echo "... builtin/cd.i"
+	@echo "... builtin/cd.s"
+	@echo "... builtin/env_list.o"
+	@echo "... builtin/env_list.i"
+	@echo "... builtin/env_list.s"
+	@echo "... builtin/environ.o"
+	@echo "... builtin/environ.i"
+	@echo "... builtin/environ.s"
+	@echo "... cmd/get_cmd.o"
+	@echo "... cmd/get_cmd.i"
+	@echo "... cmd/get_cmd.s"
+	@echo "... exec/builtin_fd.o"
+	@echo "... exec/builtin_fd.i"
+	@echo "... exec/builtin_fd.s"
+	@echo "... exec/execute.o"
+	@echo "... exec/execute.i"
+	@echo "... exec/execute.s"
 	@echo "... libft/ft_atoi.o"
 	@echo "... libft/ft_atoi.i"
 	@echo "... libft/ft_atoi.s"
@@ -2384,24 +2396,42 @@ help:
 	@echo "... libft/get_next_line.o"
 	@echo "... libft/get_next_line.i"
 	@echo "... libft/get_next_line.s"
-	@echo "... parse_tokens.o"
-	@echo "... parse_tokens.i"
-	@echo "... parse_tokens.s"
-	@echo "... pipe.o"
-	@echo "... pipe.i"
-	@echo "... pipe.s"
-	@echo "... semantica.o"
-	@echo "... semantica.i"
-	@echo "... semantica.s"
-	@echo "... token.o"
-	@echo "... token.i"
-	@echo "... token.s"
-	@echo "... tree.o"
-	@echo "... tree.i"
-	@echo "... tree.s"
-	@echo "... tree_ft.o"
-	@echo "... tree_ft.i"
-	@echo "... tree_ft.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... tokens/ampersand.o"
+	@echo "... tokens/ampersand.i"
+	@echo "... tokens/ampersand.s"
+	@echo "... tokens/eject_redirect.o"
+	@echo "... tokens/eject_redirect.i"
+	@echo "... tokens/eject_redirect.s"
+	@echo "... tokens/flag.o"
+	@echo "... tokens/flag.i"
+	@echo "... tokens/flag.s"
+	@echo "... tokens/parse_tokens.o"
+	@echo "... tokens/parse_tokens.i"
+	@echo "... tokens/parse_tokens.s"
+	@echo "... tokens/pipe.o"
+	@echo "... tokens/pipe.i"
+	@echo "... tokens/pipe.s"
+	@echo "... tokens/semantica.o"
+	@echo "... tokens/semantica.i"
+	@echo "... tokens/semantica.s"
+	@echo "... tokens/token.o"
+	@echo "... tokens/token.i"
+	@echo "... tokens/token.s"
+	@echo "... tree/tree.o"
+	@echo "... tree/tree.i"
+	@echo "... tree/tree.s"
+	@echo "... tree/tree_ft.o"
+	@echo "... tree/tree_ft.i"
+	@echo "... tree/tree_ft.s"
+	@echo "... utils/free.o"
+	@echo "... utils/free.i"
+	@echo "... utils/free.s"
+	@echo "... utils/init.o"
+	@echo "... utils/init.i"
+	@echo "... utils/init.s"
 .PHONY : help
 
 

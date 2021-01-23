@@ -82,37 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/cassunta/Desktop/shsh/ampersand.c">
+		<Unit filename="/Users/cassunta/Desktop/shsh/builtin/cd.c">
 			<Option target="shsh"/>
 		</Unit>
-		<Unit filename="/Users/cassunta/Desktop/shsh/builtin_fd.c">
+		<Unit filename="/Users/cassunta/Desktop/shsh/builtin/env_list.c">
 			<Option target="shsh"/>
 		</Unit>
-		<Unit filename="/Users/cassunta/Desktop/shsh/cd.c">
+		<Unit filename="/Users/cassunta/Desktop/shsh/builtin/environ.c">
 			<Option target="shsh"/>
 		</Unit>
-		<Unit filename="/Users/cassunta/Desktop/shsh/eject_redirect.c">
+		<Unit filename="/Users/cassunta/Desktop/shsh/cmd/get_cmd.c">
 			<Option target="shsh"/>
 		</Unit>
-		<Unit filename="/Users/cassunta/Desktop/shsh/env_list.c">
+		<Unit filename="/Users/cassunta/Desktop/shsh/exec/builtin_fd.c">
 			<Option target="shsh"/>
 		</Unit>
-		<Unit filename="/Users/cassunta/Desktop/shsh/environ.c">
-			<Option target="shsh"/>
-		</Unit>
-		<Unit filename="/Users/cassunta/Desktop/shsh/execute.c">
-			<Option target="shsh"/>
-		</Unit>
-		<Unit filename="/Users/cassunta/Desktop/shsh/flag.c">
-			<Option target="shsh"/>
-		</Unit>
-		<Unit filename="/Users/cassunta/Desktop/shsh/free.c">
-			<Option target="shsh"/>
-		</Unit>
-		<Unit filename="/Users/cassunta/Desktop/shsh/get_cmd.c">
-			<Option target="shsh"/>
-		</Unit>
-		<Unit filename="/Users/cassunta/Desktop/shsh/init.c">
+		<Unit filename="/Users/cassunta/Desktop/shsh/exec/execute.c">
 			<Option target="shsh"/>
 		</Unit>
 		<Unit filename="/Users/cassunta/Desktop/shsh/libft/ft_atoi.c">
@@ -292,25 +277,43 @@
 		<Unit filename="/Users/cassunta/Desktop/shsh/libft/libft.h">
 			<Option target="shsh"/>
 		</Unit>
-		<Unit filename="/Users/cassunta/Desktop/shsh/parse_tokens.c">
-			<Option target="shsh"/>
-		</Unit>
-		<Unit filename="/Users/cassunta/Desktop/shsh/pipe.c">
-			<Option target="shsh"/>
-		</Unit>
-		<Unit filename="/Users/cassunta/Desktop/shsh/semantica.c">
+		<Unit filename="/Users/cassunta/Desktop/shsh/main.c">
 			<Option target="shsh"/>
 		</Unit>
 		<Unit filename="/Users/cassunta/Desktop/shsh/sh.h">
 			<Option target="shsh"/>
 		</Unit>
-		<Unit filename="/Users/cassunta/Desktop/shsh/token.c">
+		<Unit filename="/Users/cassunta/Desktop/shsh/tokens/ampersand.c">
 			<Option target="shsh"/>
 		</Unit>
-		<Unit filename="/Users/cassunta/Desktop/shsh/tree.c">
+		<Unit filename="/Users/cassunta/Desktop/shsh/tokens/eject_redirect.c">
 			<Option target="shsh"/>
 		</Unit>
-		<Unit filename="/Users/cassunta/Desktop/shsh/tree_ft.c">
+		<Unit filename="/Users/cassunta/Desktop/shsh/tokens/flag.c">
+			<Option target="shsh"/>
+		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/tokens/parse_tokens.c">
+			<Option target="shsh"/>
+		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/tokens/pipe.c">
+			<Option target="shsh"/>
+		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/tokens/semantica.c">
+			<Option target="shsh"/>
+		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/tokens/token.c">
+			<Option target="shsh"/>
+		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/tree/tree.c">
+			<Option target="shsh"/>
+		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/tree/tree_ft.c">
+			<Option target="shsh"/>
+		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/utils/free.c">
+			<Option target="shsh"/>
+		</Unit>
+		<Unit filename="/Users/cassunta/Desktop/shsh/utils/init.c">
 			<Option target="shsh"/>
 		</Unit>
 		<Unit filename="/Users/cassunta/Desktop/shsh/CMakeLists.txt">
