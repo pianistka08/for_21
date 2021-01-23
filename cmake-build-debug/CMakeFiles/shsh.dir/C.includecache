@@ -18,23 +18,7 @@ unistd.h
 fcntl.h
 -
 
-/Users/cassunta/Desktop/shsh/libft/libft.h
-unistd.h
--
-stdlib.h
--
-string.h
--
-unistd.h
--
-fcntl.h
--
-
-/Users/cassunta/Desktop/shsh/main.c
-sh.h
-/Users/cassunta/Desktop/shsh/sh.h
-
-/Users/cassunta/Desktop/shsh/sh.h
+../sh.h
 stdlib.h
 -
 sys/wait.h
@@ -48,7 +32,11 @@ sys/types.h
 sys/stat.h
 -
 libft/libft.h
-/Users/cassunta/Desktop/shsh/libft/libft.h
+../libft/libft.h
 libft.h
-/Users/cassunta/Desktop/shsh/libft.h
+../libft.h
+
+/Users/cassunta/Desktop/shsh/exec/execute.c
+sh.h
+/Users/cassunta/Desktop/shsh/exec/sh.h
 

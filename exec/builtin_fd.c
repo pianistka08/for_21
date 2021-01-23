@@ -89,20 +89,16 @@ void				sh_clear(void)
 	write(1, " \e[1;1H\e[2J", 12);
 }
 
-void				do_builtin(t_cmd *cmd)
+int				do_builtin(t_cmd *cmd)
 {
 	t_list			*env;
 
 	env = env_list();
 	/*if (ft_strcmp(cmd->arr[0], ECHO) == 0)
-		sh_echo(cmd, 1);
-	if (ft_strcmp(cmd->arr[0], ENV) == 0)
-	{
-			sh_env(1);
-	}*/
+		sh_echo(cmd, 1);*/
 	if (ft_strcmp(cmd->arr[0], EXIT) == 0)
 	{
-		exit (1);
+		return (0);
 	}
 	if (ft_strcmp(cmd->arr[0], CLEAR) == 0)
 		sh_clear();
@@ -113,4 +109,5 @@ void				do_builtin(t_cmd *cmd)
 	if (ft_strcmp(cmd->arr[0], CD) == 0)
 		sh_cd(cmd->arr, env);
 	clear_list(env);
+	return (1);
 }

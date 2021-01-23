@@ -143,9 +143,9 @@ t_cmd			*get_cmd(t_token *t)
 	while (cur_t)
 	{
 		cur = get_data_cmd(cur_t, cur);
-
 		if (cur_t->next && cur_t->next->next)
 		{
+			cur->type = cur_t->next->c_type;
 			cur_t = cur_t->next->next;
 			cur->next = new_cmd(cur);
 			cur = cur->next;

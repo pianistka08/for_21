@@ -158,32 +158,35 @@ void			do_target(t_cmd *cmd)
 	}
 }
 
-void			execute(t_cmd *cmd)
+int			execute(t_cmd *cmd)
 {
 	int			read;
 	int			fd[2];
 	pid_t		pid;
 	t_cmd 		*head;
+	int			res;
 
+	res = 1;
 	head = cmd;
 	read = 0;
 	do_target(cmd);
-	if ((pid = fork()) == 0)
+	while (cmd)
 	{
-		while (cmd)
+		if ((pid = fork()) == 0)
 		{
 			pipe(fd);
 			if (command(cmd->arr[0]) && cmd->type != 2)
-				do_builtin(cmd);
+				res = do_builtin(cmd);
 			else
 				do_proc(read, fd[1], cmd->target, cmd);
 			close(fd[1]);
 			read = fd[0];
-			cmd = cmd->next;
 		}
+		else
+			wait(&pid);
+		cmd = cmd->next;
 	}
-	else
-		wait(&pid);
 	//free_cmd(head);
+	return (res);
 }
 

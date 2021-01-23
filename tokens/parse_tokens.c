@@ -53,8 +53,6 @@ t_token 			*parsing_t(char *line)
 	t_flag *flag;
 	int l;
 	t_token *cur;
-	t_cmd *cmd;
-
 
 	car = 0;
 	l = ft_strlen(line);
@@ -73,13 +71,8 @@ t_token 			*parsing_t(char *line)
 		flag = reset_flag(flag);
 	}
 	free(flag);
-	//free(line);
-	/*if (is_tokens_true(cur))
-	{
-		cmd = get_cmd(cur);
-		execute(cmd);
-	}
-	free_token(cur);*/
-	return (cur); /// интовая функция, возвращающая значение. специальное значение для exit.
+	if (is_tokens_true(cur))
+		return (cur);
+	return (0);
 }
 
