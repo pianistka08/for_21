@@ -42,7 +42,19 @@ int 				semantica(t_flag *flag, char *line, int *i, int *j)
 	}
 	if (*j != 0 || ((flag->d_quot % 2 != 0) || (flag->u_quot % 2 != 0) || /// если открыты кавычки или есть бек-слэш
 		(line[*i - 1] && line[*i - 1] != 92)))
-		return (1);
+	{
+		/*if (line[*i] == '&' && (line[*i + 1] != '>' || line[*i - 1] != '<') || (line[*i] == '>' && (line[*i+ 1] != '&' || line[*i - 1] != '&')) ||
+			(line[*i] == '<' && (line[*i + 1] != '&' || line[*i - 1] != '&')))*/
+		if (line[*i] == '&' && (line[*i + 1] == '>' || line[*i - 1] == '<' || line[*i - 1] == '>') || (line[*i] == '>' && (line[*i+ 1] == '&' || line[*i - 1] == '&')) ||
+			(line[*i] == '<' && (line[*i + 1] == '&' || line[*i - 1] == '&')))
+		{
+			*i += 1;
+			*j += 1;
+			return (0);
+		}
+		else
+			return (1);
+	}
 	if (*j == 0)
 		return (2);
 }
